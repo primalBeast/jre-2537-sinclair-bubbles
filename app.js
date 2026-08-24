@@ -115,9 +115,9 @@
         highlight: "rgba(232,184,74,0.9)",
         hover: "rgba(243,238,228,0.55)"
       },
-      width: 1.05,
-      hoverWidth: 2,
-      selectionWidth: 2.2,
+      width: 2,
+      hoverWidth: 8,
+      selectionWidth: 8,
       smooth: { type: "continuous", roundness: 0.35 },
       font: { face: FONT, size: 0, color: "transparent", strokeWidth: 0, background: "transparent" }
     };
@@ -312,6 +312,52 @@
     el.detail.hidden = false;
     if (el.close) el.close.hidden = false;
   }
+  function renderEdgeSheet(e) {
+    const from = raw.nodes.find((x) => x.id === e.from);
+    const to = raw.nodes.find((x) => x.id === e.to);
+    if (!from || !to) return;
+    if (appRoot) appRoot.classList.add("has-sel");
+    selectedId = null;
+    if (network) network.selectEdges([e.id]);
+    el.empty.hidden = true;
+    el.detail.hidden = false;
+    if (el.close) el.close.hidden = false;
+    el.detail.textContent = "";
+    const badge = document.createElement("div");
+    badge.className = "detail-type";
+    badge.style.setProperty("--swatch", "#e8b84a");
+    const sw = document.createElement("span");
+    sw.className = "swatch";
+    badge.appendChild(sw);
+    badge.appendChild(document.createTextNode("Link"));
+    const title = document.createElement("h2");
+    title.id = "detail-title";
+    title.textContent = e.reason || "Connection";
+    const lab = document.createElement("p");
+    lab.className = "section-label";
+    lab.textContent = "Between";
+    const list = document.createElement("div");
+    list.className = "conn";
+    [from, to].forEach((n) => {
+      const cm = TYPE_META[n.type] || { color: "#8b93a4" };
+      const item = document.createElement("div");
+      item.className = "conn-item";
+      item.style.setProperty("--swatch", cm.color);
+      item.addEventListener("click", () => selectNode(n.id));
+      const who = document.createElement("div");
+      who.className = "who";
+      const dot = document.createElement("span");
+      dot.className = "dot";
+      who.appendChild(dot);
+      who.appendChild(document.createTextNode(n.label));
+      item.appendChild(who);
+      list.appendChild(item);
+    });
+    el.detail.appendChild(badge);
+    el.detail.appendChild(title);
+    el.detail.appendChild(lab);
+    el.detail.appendChild(list);
+  }
   function selectNode(id) {
     if (!id || !nodesDS.get(id) || nodesDS.get(id).hidden) return;
     selectedId = id;
@@ -413,6 +459,7 @@
         if (e) {
           setEdgeLabels([e.id], true);
           showTooltip(e.reason, params.pointer.DOM.x, params.pointer.DOM.y);
+          renderEdgeSheet(e);
         }
         return;
       }

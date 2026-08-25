@@ -6,8 +6,7 @@
       "title": "JRE #2537 — David Sinclair",
       "guest": "David Sinclair",
       "date": "2026-08-07",
-      "graph": "graph.json",
-      "defaultOn": true
+      "graph": "episodes/jre-2537.json"
     },
     {
       "id": "demo-overlap",

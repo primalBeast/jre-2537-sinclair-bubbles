@@ -13,7 +13,7 @@
     media:   { color: "#e879c0", label: "Media" }
   };
   const CLUSTER_GAP = 2600;
-  const FIT_MIN_SCALE = 0.82;
+  const FIT_MIN_SCALE = 0.85;
   const FONT = "IBM Plex Sans, Segoe UI, system-ui, sans-serif";
   const DISPLAY = "Syne, IBM Plex Sans, sans-serif";
   const appRoot = document.getElementById("app");
@@ -314,7 +314,7 @@
     const meta = TYPE_META[n.type] || { color: "#8b93a4", label: n.type };
     const color = meta.color;
     const isHub = isHubNode(n);
-    const fontSize = isHub ? 16 : 14 + Math.min(3, (deg || 0) / 4);
+    const fontSize = isHub ? 20 : 16 + Math.min(4, (deg || 0) / 4);
     const node = {
       id: n.id,
       label: n.label,
@@ -332,17 +332,17 @@
       borderWidth: isHub ? 2 : 1.25,
       borderWidthSelected: 2.4,
       color: {
-        background: hexToRgba(color, isHub ? 0.55 : 0.4),
+        background: hexToRgba(color, isHub ? 0.90 : 0.82),
         border: color,
-        highlight: { background: hexToRgba(color, 0.62), border: "#f3eee4" },
-        hover: { background: hexToRgba(color, 0.5), border: "#f3eee4" }
+        highlight: { background: hexToRgba(color, 0.95), border: "#08090c" },
+        hover: { background: hexToRgba(color, 0.88), border: "#08090c" }
       },
       font: {
         face: isHub ? DISPLAY : FONT,
         size: fontSize,
-        color: "#f3eee4",
-        strokeWidth: isHub ? 5 : 4,
-        strokeColor: "#09080c",
+        color: "#08090c",
+        strokeWidth: 0,
+        strokeColor: "#08090c",
         multi: false
       },
       shadow: { enabled: true, color: hexToRgba(color, isHub ? 0.55 : 0.32), size: isHub ? 22 : 12, x: 0, y: 0 },
@@ -462,10 +462,15 @@
         opacity: dim ? 0.16 : 1,
         borderWidth: !dim && q && hit ? 3 : (isHub ? 2.5 : 1.6),
         color: {
-          background: hexToRgba(color, dim ? 0.1 : (isHub ? 0.55 : 0.4)),
+          background: hexToRgba(color, dim ? 0.28 : (isHub ? 0.90 : 0.82)),
           border: dim ? hexToRgba(color, 0.22) : color,
-          highlight: { background: hexToRgba(color, 0.5), border: "#f3eee4" },
-          hover: { background: hexToRgba(color, 0.32), border: "#f3eee4" }
+          highlight: { background: hexToRgba(color, 0.95), border: "#08090c" },
+          hover: { background: hexToRgba(color, 0.88), border: "#08090c" }
+        },
+        font: {
+          color: "#08090c",
+          strokeWidth: 0,
+          strokeColor: "#08090c"
         }
       });
     });
@@ -595,7 +600,7 @@
         item.addEventListener("click", () => selectNode(c.other.id));
         const who = document.createElement("div");
         who.className = "who";
-        who.style.setProperty("--swatch", cm.color);
+ mar        who.style.setProperty("--swatch", cm.color);
         const dot = document.createElement("span");
         dot.className = "dot";
         who.appendChild(dot);
@@ -828,16 +833,19 @@
   }
 
 
+
   function fitGraph(animated) {
     if (!network) return;
     const anim = animated === false ? false : { duration: 650, easingFunction: "easeInOutQuad" };
     const narrow = (typeof window !== "undefined" && window.innerWidth < 980);
     if (selectedIds.length > 1 && narrow && raw) {
-      const hub = raw.nodes.find((n) => n.hub && n.episodeId === selectedIds[0]) || raw.nodes.find((n) => n.hub);
+      const hub = raw.nodes.find((n) => isHubNode(n) && n.episodeId === selectedIds[0]) || raw.nodes.find((n) => isHubNode(n));
       if (hub) {
-        network.focus(hub.id, { scale: Math.max(FIT_MIN_SCALE, 0.9), animation: anim });
+        network.focus(hub.id, { scale: Math.max(FIT_MIN_SCALE, 0.85), animation: anim });
         return;
       }
+      network.moveTo({ scale: FIT_MIN_SCALE, animation: anim });
+      return;
     }
     network.fit({ animation: anim });
     const s = network.getScale();
@@ -928,7 +936,7 @@
           damping: 0.55,
           avoidOverlap: 1
         },
-        stabilization: { enabled: true, iterations: 320, fit: true, updateInterval: 25 }
+        stabilization: { enabled: true, iterations: 320, fit: selectedIds.length > 1 ? false : true, updateInterval: 25 }
       },
       nodes: { scaling: { min: 10, max: 40 } },
       edges: { chosen: { edge: true, label: true } }

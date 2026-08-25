@@ -345,21 +345,21 @@
       borderWidth: isHub ? 2 : 1.25,
       borderWidthSelected: 2.4,
       color: {
-        background: hexToRgba(color, isHub ? 0.90 : 0.82),
+        background: hexToRgba(color, isHub ? 0.42 : 0.16),
         border: color,
-        highlight: { background: hexToRgba(color, 0.95), border: "#08090c" },
-        hover: { background: hexToRgba(color, 0.88), border: "#08090c" }
+        highlight: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color },
+        hover: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color }
       },
       font: {
         face: isHub ? DISPLAY : FONT,
         size: fontSize,
-        color: "#08090c",
+        color: "#f3eee4",
         strokeWidth: 0,
-        strokeColor: "#08090c",
+        strokeColor: "transparent",
         multi: isHub && dateLabel ? true : false
       },
-      shadow: { enabled: true, color: hexToRgba(color, isHub ? 0.55 : 0.32), size: isHub ? 22 : 12, x: 0, y: 0 },
-      chosen: true
+      shadow: { enabled: false },
+      chosen: false
     };
     if (typeof n.x === "number") node.x = n.x;
     if (typeof n.y === "number") node.y = n.y;
@@ -475,15 +475,15 @@
         opacity: dim ? 0.16 : 1,
         borderWidth: !dim && q && hit ? 3 : (isHub ? 2.5 : 1.6),
         color: {
-          background: hexToRgba(color, dim ? 0.28 : (isHub ? 0.90 : 0.82)),
+          background: hexToRgba(color, dim ? 0.08 : (isHub ? 0.42 : 0.16)),
           border: dim ? hexToRgba(color, 0.22) : color,
-          highlight: { background: hexToRgba(color, 0.95), border: "#08090c" },
-          hover: { background: hexToRgba(color, 0.88), border: "#08090c" }
+          highlight: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color },
+          hover: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color }
         },
         font: {
-          color: "#08090c",
+          color: "#f3eee4",
           strokeWidth: 0,
-          strokeColor: "#08090c"
+          strokeColor: "transparent"
         }
       });
     });
@@ -836,17 +836,18 @@
       }
     });
     network.once("stabilizationIterationsDone", () => {
+      if (selectedIds.length > 1) recenterClustersOnHubs();
+      network.setOptions({ physics: { enabled: false } });
       if (nodesDS) {
-        const unfix = raw.nodes.filter((n) => !isHubNode(n)).map((n) => ({ id: n.id, fixed: false }));
+        const unfix = raw.nodes.map((n) => ({ id: n.id, fixed: false }));
         if (unfix.length) nodesDS.update(unfix);
-      }
-      if (selectedIds.length > 1) {
-        recenterClustersOnHubs();
-        network.setOptions({ physics: { enabled: false } });
       }
       el.loading.hidden = true;
       el.graph.classList.add("is-ready");
       fitGraph(true);
+    });
+    network.on("dragEnd", () => {
+      network.setOptions({ physics: { enabled: false } });
     });
   }
 
@@ -931,7 +932,7 @@
       autoResize: true,
       interaction: {
         hover: true,
-        hoverConnectedEdges: true,
+        hoverConnectedEdges: false,
         tooltipDelay: 400,
         dragNodes: true,
         dragView: true,
@@ -956,7 +957,7 @@
         },
         stabilization: { enabled: true, iterations: 320, fit: selectedIds.length > 1 ? false : true, updateInterval: 25 }
       },
-      nodes: { scaling: { min: 10, max: 40 } },
+      nodes: { scaling: { min: 10, max: 10 }, chosen: false },
       edges: { chosen: { edge: true, label: true } }
     });
   }

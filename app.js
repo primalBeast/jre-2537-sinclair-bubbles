@@ -12,7 +12,7 @@
     podcast: { color: "#d4925a", label: "Podcast" },
     media:   { color: "#c4849c", label: "Media" }
   };
-  const CLUSTER_GAP = 980;
+  const CLUSTER_GAP = 1200;
   const FONT = "IBM Plex Sans, Segoe UI, system-ui, sans-serif";
   const DISPLAY = "Syne, IBM Plex Sans, sans-serif";
   const appRoot = document.getElementById("app");
@@ -225,6 +225,13 @@
       }
     });
   }
+  function defaultSelectedIds() {
+    const eps = (catalog && catalog.episodes) || [];
+    const marked = eps.filter((ep) => ep.defaultOn).map((ep) => ep.id);
+    if (marked.length) return marked;
+    const first = eps.find((ep) => !ep.demo) || eps[0];
+    return first ? [first.id] : [];
+  }
   function selectedEpisodes() {
     const map = Object.create(null);
     (catalog.episodes || []).forEach((ep) => { map[ep.id] = ep; });
@@ -262,6 +269,7 @@
       btn.className = "ep-chip" + (on ? " on" : " off");
       btn.setAttribute("aria-pressed", on ? "true" : "false");
       btn.dataset.id = ep.id;
+      btn.setAttribute("aria-label", ep.title || ep.id);
       const num = document.createElement("span");
       num.className = "ep-num";
       const m = (ep.title || "").match(/#\d+/);
@@ -852,8 +860,8 @@
         enabled: true,
         solver: "forceAtlas2Based",
         forceAtlas2Based: {
-          gravitationalConstant: -50,
-          centralGravity: 0.008,
+          gravitationalConstant: selectedIds.length > 1 ? -68 : -50,
+          centralGravity: selectedIds.length > 1 ? 0.002 : 0.008,
           springLength: 110,
           springConstant: 0.07,
           damping: 0.55,
@@ -906,7 +914,7 @@
         return;
       }
       catalog = await loadCatalog();
-      selectedIds = [((catalog.episodes || []).find(function (ep) { return !ep.demo; }) || (catalog.episodes || [])[0] || {}).id].filter(Boolean);
+      selectedIds = defaultSelectedIds();
       if (!selectedIds.length) throw new Error("Catalog has no episodes");
       renderPicker();
       bindUi();

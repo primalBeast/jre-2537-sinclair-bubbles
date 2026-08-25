@@ -12,7 +12,7 @@
     podcast: { color: "#f0a05a", label: "Podcast" },
     media:   { color: "#e879c0", label: "Media" }
   };
-  const CLUSTER_GAP = 1200;
+  const CLUSTER_GAP = 2600;
   const FONT = "IBM Plex Sans, Segoe UI, system-ui, sans-serif";
   const DISPLAY = "Syne, IBM Plex Sans, sans-serif";
   const appRoot = document.getElementById("app");
@@ -214,7 +214,7 @@
         node.x = hubPos.x;
         node.y = hubPos.y;
         node.fixed = { x: true, y: true };
-        node.mass = 12;
+        node.mass = episodes.length > 1 ? 20 : 12;
       } else {
         const seed = ((idx + 1) * 9301 + 49297) % 1000;
         const ang = (seed / 1000) * Math.PI * 2;
@@ -860,8 +860,8 @@
         enabled: true,
         solver: "forceAtlas2Based",
         forceAtlas2Based: {
-          gravitationalConstant: selectedIds.length > 1 ? -68 : -50,
-          centralGravity: selectedIds.length > 1 ? 0.002 : 0.008,
+          gravitationalConstant: selectedIds.length > 1 ? -95 : -50,
+          centralGravity: selectedIds.length > 1 ? 0.0004 : 0.008,
           springLength: 110,
           springConstant: 0.07,
           damping: 0.55,

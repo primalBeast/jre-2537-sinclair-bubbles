@@ -1,0 +1,823 @@
+{
+  "nodes": [
+    {
+      "id": "jre-1234",
+      "label": "JRE #1234",
+      "type": "podcast",
+      "timestamp": "00:00:00",
+      "url": "https://www.youtube.com/watch?v=HOTS0HS7aq4"
+    },
+    {
+      "id": "topic-sirtuins",
+      "label": "Sirtuins",
+      "type": "topic",
+      "timestamp": "00:04:07"
+    },
+    {
+      "id": "topic-ampk",
+      "label": "AMPK",
+      "type": "topic",
+      "timestamp": "00:07:10"
+    },
+    {
+      "id": "topic-mtor",
+      "label": "mTOR",
+      "type": "topic",
+      "timestamp": "00:09:41"
+    },
+    {
+      "id": "topic-tmao",
+      "label": "TMAO",
+      "type": "topic",
+      "timestamp": "00:13:49"
+    },
+    {
+      "id": "topic-bcaas",
+      "label": "BCAAs",
+      "type": "topic",
+      "timestamp": "00:13:49"
+    },
+    {
+      "id": "topic-methylation-clock",
+      "label": "Methylation clock",
+      "type": "topic",
+      "timestamp": "01:51:52"
+    },
+    {
+      "id": "topic-parabiosis",
+      "label": "Heterochronic parabiosis",
+      "type": "topic",
+      "timestamp": "00:22:19"
+    },
+    {
+      "id": "topic-glaucoma-reprogramming",
+      "label": "Optic-nerve / glaucoma reprogramming",
+      "type": "topic",
+      "timestamp": "00:40:28"
+    },
+    {
+      "id": "topic-crispr-twins",
+      "label": "CRISPR twin girls",
+      "type": "topic",
+      "timestamp": "01:10:32"
+    },
+    {
+      "id": "topic-lyme",
+      "label": "Lyme",
+      "type": "topic",
+      "timestamp": "01:34:13"
+    },
+    {
+      "id": "topic-young-plasma",
+      "label": "Young plasma",
+      "type": "topic",
+      "timestamp": "00:23:01"
+    },
+    {
+      "id": "topic-disposable-soma",
+      "label": "Disposable soma",
+      "type": "topic",
+      "timestamp": "00:15:50"
+    },
+    {
+      "id": "joe-rogan",
+      "label": "Joe Rogan",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "david-sinclair",
+      "label": "David Sinclair",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "leonard-guarente",
+      "label": "Leonard Guarente",
+      "type": "person",
+      "timestamp": "00:04:07"
+    },
+    {
+      "id": "tom-kirkwood",
+      "label": "Tom Kirkwood",
+      "type": "person",
+      "timestamp": "00:15:50"
+    },
+    {
+      "id": "jamie-vernon",
+      "label": "Jamie Vernon",
+      "type": "person",
+      "timestamp": "00:20:51"
+    },
+    {
+      "id": "nick-christakis",
+      "label": "Nick Christakis",
+      "type": "person",
+      "timestamp": "00:42:37"
+    },
+    {
+      "id": "tom-brady",
+      "label": "Tom Brady",
+      "type": "person",
+      "timestamp": "01:00:07"
+    },
+    {
+      "id": "george-church",
+      "label": "George Church",
+      "type": "person",
+      "timestamp": "01:01:03"
+    },
+    {
+      "id": "unnamed-chinese-researcher",
+      "label": "unnamed Chinese researcher",
+      "type": "person",
+      "timestamp": "01:10:32"
+    },
+    {
+      "id": "bryan-fogel",
+      "label": "Bryan Fogel",
+      "type": "person",
+      "timestamp": "01:16:45"
+    },
+    {
+      "id": "barbra-streisand",
+      "label": "Barbra Streisand",
+      "type": "person",
+      "timestamp": "01:18:22"
+    },
+    {
+      "id": "carlos-bustamante",
+      "label": "Carlos Bustamante",
+      "type": "person",
+      "timestamp": "01:18:45"
+    },
+    {
+      "id": "sinclair-wife",
+      "label": "Sinclair's wife",
+      "type": "person",
+      "timestamp": "01:19:17"
+    },
+    {
+      "id": "natalie",
+      "label": "Natalie",
+      "type": "person",
+      "timestamp": "01:34:20"
+    },
+    {
+      "id": "steves-son",
+      "label": "Steve's son",
+      "type": "person",
+      "timestamp": "01:36:00"
+    },
+    {
+      "id": "brad-pitt",
+      "label": "Brad Pitt",
+      "type": "person",
+      "timestamp": "01:39:53"
+    },
+    {
+      "id": "steve-horvath",
+      "label": "Steve Horvath",
+      "type": "person",
+      "timestamp": "01:51:52"
+    },
+    {
+      "id": "sinclair-father",
+      "label": "Sinclair's father",
+      "type": "person"
+    },
+    {
+      "id": "harvard-genetics",
+      "label": "genetics.med.harvard.edu/sinclair",
+      "type": "website",
+      "url": "https://genetics.med.harvard.edu/sinclair/people/sinclair.php"
+    },
+    {
+      "id": "twitter",
+      "label": "Twitter",
+      "type": "website",
+      "timestamp": "01:12:36"
+    },
+    {
+      "id": "google",
+      "label": "Google",
+      "type": "website",
+      "timestamp": "02:11:04"
+    },
+    {
+      "id": "23andme",
+      "label": "23andMe",
+      "type": "website",
+      "timestamp": "02:19:17"
+    },
+    {
+      "id": "radiolab",
+      "label": "Radiolab",
+      "type": "podcast",
+      "timestamp": "01:16:29"
+    },
+    {
+      "id": "prior-jre-lyme",
+      "label": "prior JRE (Lyme map)",
+      "type": "podcast",
+      "timestamp": "01:38:26"
+    },
+    {
+      "id": "media-icarus",
+      "label": "Icarus",
+      "type": "media",
+      "timestamp": "01:16:45"
+    },
+    {
+      "id": "media-world-war-z",
+      "label": "World War Z",
+      "type": "media",
+      "timestamp": "01:39:53"
+    },
+    {
+      "id": "paper-mouse-feeding-time",
+      "label": "mouse feeding-time / longevity",
+      "type": "paper",
+      "timestamp": "00:01:35"
+    },
+    {
+      "id": "paper-metformin-epi",
+      "label": "metformin epi, 10,000 people",
+      "type": "paper",
+      "timestamp": "00:07:50"
+    },
+    {
+      "id": "paper-tmao-heart",
+      "label": "TMAO animal heart-disease study",
+      "type": "paper",
+      "timestamp": "00:13:49"
+    },
+    {
+      "id": "paper-myostatin-mouse",
+      "label": "myostatin-insufficiency mouse",
+      "type": "paper",
+      "timestamp": "00:21:40"
+    },
+    {
+      "id": "paper-microbiome-survey",
+      "label": "global microbiome survey",
+      "type": "paper",
+      "timestamp": "01:40:59"
+    },
+    {
+      "id": "paper-rapamycin-elderly",
+      "label": "rapamycin in elderly / immune",
+      "type": "paper",
+      "timestamp": "01:50:00"
+    },
+    {
+      "id": "paper-pfizer-resveratrol",
+      "label": "Pfizer paper contradicting resveratrol-sirtuin work",
+      "type": "paper",
+      "timestamp": "02:03:59"
+    },
+    {
+      "id": "resveratrol",
+      "label": "Resveratrol",
+      "type": "product",
+      "timestamp": "00:02:45"
+    },
+    {
+      "id": "nmn",
+      "label": "NMN",
+      "type": "product",
+      "timestamp": "00:03:21"
+    },
+    {
+      "id": "nr",
+      "label": "NR",
+      "type": "product",
+      "timestamp": "00:05:16"
+    },
+    {
+      "id": "nad",
+      "label": "NAD",
+      "type": "product",
+      "timestamp": "00:05:21"
+    },
+    {
+      "id": "metformin",
+      "label": "Metformin",
+      "type": "product",
+      "timestamp": "00:07:10"
+    },
+    {
+      "id": "rapamycin",
+      "label": "Rapamycin",
+      "type": "product",
+      "timestamp": "00:09:41"
+    },
+    {
+      "id": "cryotherapy",
+      "label": "Cryotherapy",
+      "type": "product",
+      "timestamp": "00:10:42"
+    },
+    {
+      "id": "coral-calcium",
+      "label": "Coral calcium",
+      "type": "product",
+      "timestamp": "00:30:27"
+    },
+    {
+      "id": "insidetracker",
+      "label": "InsideTracker",
+      "type": "product",
+      "timestamp": "00:47:23"
+    },
+    {
+      "id": "diet-coke-pepsi",
+      "label": "Diet Coke/Pepsi",
+      "type": "product",
+      "timestamp": "00:53:34"
+    },
+    {
+      "id": "aspartame",
+      "label": "Aspartame",
+      "type": "product",
+      "timestamp": "00:54:07"
+    },
+    {
+      "id": "creatine",
+      "label": "Creatine",
+      "type": "product",
+      "timestamp": "00:56:45"
+    },
+    {
+      "id": "neuro-one",
+      "label": "Neuro One / True Brain",
+      "type": "product",
+      "timestamp": "00:56:59"
+    },
+    {
+      "id": "alphabrain",
+      "label": "AlphaBrain",
+      "type": "product",
+      "timestamp": "00:57:13"
+    },
+    {
+      "id": "piracetam",
+      "label": "piracetam",
+      "type": "product",
+      "timestamp": "00:57:22"
+    },
+    {
+      "id": "statin",
+      "label": "Statin",
+      "type": "product",
+      "timestamp": "01:00:51"
+    },
+    {
+      "id": "vitamin-d-k2",
+      "label": "Vitamin D+K2",
+      "type": "product",
+      "timestamp": "01:22:35"
+    },
+    {
+      "id": "jamba-juice",
+      "label": "Jamba Juice",
+      "type": "product",
+      "timestamp": "01:24:49"
+    },
+    {
+      "id": "botox",
+      "label": "Botox",
+      "type": "product",
+      "timestamp": "01:50:37"
+    },
+    {
+      "id": "lua",
+      "label": "Lua",
+      "type": "product",
+      "timestamp": "02:09:57"
+    },
+    {
+      "id": "crispr",
+      "label": "CRISPR",
+      "type": "product",
+      "timestamp": "01:10:32"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jre-1234",
+      "to": "david-sinclair",
+      "reason": "guest"
+    },
+    {
+      "from": "jre-1234",
+      "to": "joe-rogan",
+      "reason": "host"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "harvard-genetics",
+      "reason": "show-notes lab page (not spoken)"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "resveratrol",
+      "reason": "takes; mouse every-other-day feeding"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nmn",
+      "reason": "takes 1g morning"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nr",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "nmn",
+      "to": "nad",
+      "reason": "NAD precursor"
+    },
+    {
+      "from": "nr",
+      "to": "nad",
+      "reason": "NAD precursor"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "metformin",
+      "reason": "takes 1g night"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "rapamycin",
+      "reason": "Sinclair does not take it"
+    },
+    {
+      "from": "metformin",
+      "to": "topic-ampk",
+      "reason": "AMPK pathway"
+    },
+    {
+      "from": "rapamycin",
+      "to": "topic-mtor",
+      "reason": "mTOR pathway"
+    },
+    {
+      "from": "resveratrol",
+      "to": "topic-sirtuins",
+      "reason": "sirtuin activator claim"
+    },
+    {
+      "from": "leonard-guarente",
+      "to": "topic-sirtuins",
+      "reason": "MIT yeast sirtuin ~1995"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "leonard-guarente",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-mouse-feeding-time",
+      "to": "resveratrol",
+      "reason": "couple of weeks ago; feeding-time longevity"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-mouse-feeding-time",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-metformin-epi",
+      "to": "metformin",
+      "reason": "10,000 people and more"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-metformin-epi",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-tmao-heart",
+      "to": "topic-tmao",
+      "reason": "same study"
+    },
+    {
+      "from": "topic-tmao",
+      "to": "topic-bcaas",
+      "reason": "same diet/heart thread"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-tmao-heart",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "tom-kirkwood",
+      "to": "topic-disposable-soma",
+      "reason": "disposable-soma theory"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "tom-kirkwood",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-myostatin-mouse",
+      "to": "jamie-vernon",
+      "reason": "guest also mentioned at 00:20:51"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-myostatin-mouse",
+      "reason": "15% life extension"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "topic-parabiosis",
+      "reason": "not his lab"
+    },
+    {
+      "from": "topic-young-plasma",
+      "to": "topic-parabiosis",
+      "reason": "young-plasma startups (companies not named)"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "topic-glaucoma-reprogramming",
+      "reason": "optic-nerve crush; unpublished at taping"
+    },
+    {
+      "from": "topic-glaucoma-reprogramming",
+      "to": "topic-sirtuins",
+      "reason": "reprogramming genes / old-mouse vision"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nick-christakis",
+      "reason": "guest also mentioned; book title not spoken"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "cryotherapy",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "coral-calcium",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "insidetracker",
+      "reason": "blood tracking; also 01:51:44, 02:19:49"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "diet-coke-pepsi",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "diet-coke-pepsi",
+      "to": "aspartame",
+      "reason": "same thread"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "creatine",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "neuro-one",
+      "reason": "ASR Neuro One / True Brain"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "alphabrain",
+      "reason": "double-blind, Boston Center for Memory"
+    },
+    {
+      "from": "alphabrain",
+      "to": "piracetam",
+      "reason": "same nootropic stretch"
+    },
+    {
+      "from": "tom-brady",
+      "to": "statin",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "george-church",
+      "to": "statin",
+      "reason": "Sinclair cites Church on statins"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "george-church",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "tom-brady",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "unnamed-chinese-researcher",
+      "to": "topic-crispr-twins",
+      "reason": "CRISPR twins; He Jiankui not named"
+    },
+    {
+      "from": "topic-crispr-twins",
+      "to": "crispr",
+      "reason": "same method"
+    },
+    {
+      "from": "radiolab",
+      "to": "crispr",
+      "reason": "CRISPR generations episode"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "radiolab",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "bryan-fogel",
+      "to": "media-icarus",
+      "reason": "Icarus"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "bryan-fogel",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "barbra-streisand",
+      "to": "crispr",
+      "reason": "cloned dog Sammy/Samantha"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "barbra-streisand",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "carlos-bustamante",
+      "to": "david-sinclair",
+      "reason": "Kennewick Man later 01:35:05"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "twitter",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-wife",
+      "reason": "unnamed"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "vitamin-d-k2",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "jamba-juice",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "natalie",
+      "to": "topic-lyme",
+      "reason": "middle daughter; Lyme / spinal-fluid"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "natalie",
+      "reason": "daughter"
+    },
+    {
+      "from": "steves-son",
+      "to": "topic-lyme",
+      "reason": "Lyme / Bell's palsy; Steve not fully named"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "prior-jre-lyme",
+      "reason": "prior JRE Lyme map"
+    },
+    {
+      "from": "prior-jre-lyme",
+      "to": "topic-lyme",
+      "reason": "same thread"
+    },
+    {
+      "from": "paper-microbiome-survey",
+      "to": "topic-lyme",
+      "reason": "published a few days ago; Lyme-as-bioweapon stretch"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-microbiome-survey",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "brad-pitt",
+      "to": "media-world-war-z",
+      "reason": "World War Z"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "brad-pitt",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "paper-rapamycin-elderly",
+      "to": "rapamycin",
+      "reason": "elderly / immune"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-rapamycin-elderly",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "botox",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "steve-horvath",
+      "to": "topic-methylation-clock",
+      "reason": "DNA methylation clock (method, not a citation)"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "steve-horvath",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-pfizer-resveratrol",
+      "to": "resveratrol",
+      "reason": "contradicts resveratrol-sirtuin work; title not given"
+    },
+    {
+      "from": "paper-pfizer-resveratrol",
+      "to": "topic-sirtuins",
+      "reason": "same dispute"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-pfizer-resveratrol",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "lua",
+      "reason": "spells L-U-A"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "google",
+      "reason": "search David Sinclair and NAD or aging"
+    },
+    {
+      "from": "google",
+      "to": "nad",
+      "reason": "same search"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "23andme",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "nmn",
+      "reason": "takes"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "metformin",
+      "reason": "takes"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "statin",
+      "reason": "takes"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-father",
+      "reason": "family"
+    },
+    {
+      "from": "insidetracker",
+      "to": "topic-methylation-clock",
+      "reason": "also discussed at 01:51:44 with aging markers"
+    }
+  ]
+}

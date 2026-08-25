@@ -402,8 +402,8 @@
         hover: "rgba(243,238,228,0.55)"
       },
       width: 2,
-      hoverWidth: 0,
-      selectionWidth: 0,
+      hoverWidth: 2,
+      selectionWidth: 2,
       physics: isCross ? false : true,
       smooth: { type: "continuous", roundness: isCross ? 0.18 : 0.35 },
       font: { face: FONT, size: 0, color: "transparent", strokeWidth: 0, background: "transparent" }
@@ -423,8 +423,8 @@
         hover: "rgba(0,0,0,0)"
       },
       width: 24,
-      hoverWidth: 0,
-      selectionWidth: 0,
+      hoverWidth: 24,
+      selectionWidth: 24,
       physics: false,
       chosen: false,
       smooth: { type: "continuous", roundness: isCross ? 0.18 : 0.35 },
@@ -941,7 +941,7 @@
         stabilization: { enabled: true, iterations: 320, fit: selectedIds.length > 1 ? false : true, updateInterval: 25 }
       },
       nodes: { scaling: { min: 10, max: 10 }, chosen: false, font: { color: "#f3eee4", strokeWidth: 0, strokeColor: "transparent" } },
-      edges: { chosen: false, hoverWidth: 0, selectionWidth: 0 }
+      edges: { chosen: false, hoverWidth: 2, selectionWidth: 2 }
     });
   }
   async function rebuildGraph() {

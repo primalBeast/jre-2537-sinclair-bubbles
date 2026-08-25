@@ -823,14 +823,31 @@
       applyFilters();
       network.setOptions({
         physics: { enabled: false },
-        interaction: { hover: false, hoverConnectedEdges: false, selectConnectedEdges: false }
+        interaction: {
+          hover: false,
+          hoverConnectedEdges: false,
+          selectConnectedEdges: false,
+          zoomView: true,
+          dragView: true,
+          dragNodes: true
+        }
       });
       el.loading.hidden = true;
       el.graph.classList.add("is-ready");
       fitGraph(true);
     });
     network.on("dragEnd", () => {
-      network.setOptions({ physics: { enabled: false } });
+      network.setOptions({
+        physics: { enabled: false },
+        interaction: {
+          hover: false,
+          hoverConnectedEdges: false,
+          selectConnectedEdges: false,
+          zoomView: true,
+          dragView: true,
+          dragNodes: true
+        }
+      });
     });
   }
 
@@ -911,6 +928,8 @@
     const deg = degreeMap(raw.edges);
     nodesDS = new vis.DataSet(raw.nodes.map((n) => visNode(n, deg[n.id] || 0)));
     edgesDS = new vis.DataSet(raw.edges.flatMap(visEdges));
+    if (el.graph && el.graph.style) el.graph.style.touchAction = "none";
+    if (el.wrap && el.wrap.style) el.wrap.style.touchAction = "none";
     network = new vis.Network(el.graph, { nodes: nodesDS, edges: edgesDS }, {
       autoResize: true,
       interaction: {

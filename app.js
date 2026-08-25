@@ -928,7 +928,7 @@
           damping: 0.55,
           avoidOverlap: 1
         },
-        stabilization: { enabled: true, iterations: 320, fit: selectedIds.length > 1 ? false : true, updateInterval: 25 }
+        stabilization: { enabled: true, iterations: 320, fit: true, updateInterval: 25 }
       },
       nodes: { scaling: { min: 10, max: 40 } },
       edges: { chosen: { edge: true, label: true } }

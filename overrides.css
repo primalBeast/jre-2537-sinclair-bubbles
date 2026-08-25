@@ -15,6 +15,13 @@
   flex: 0 0 auto;
 }
 .ep-num { font-weight: 700; }
+[style*="#8fb7c9"] { --swatch: #5aa7e6; }
+[style*="#6db8a8"] { --swatch: #3ecfbe; }
+[style*="#a690c4"] { --swatch: #b794f6; }
+[style*="#d07a68"] { --swatch: #f09090; }
+[style*="#7fbf9a"] { --swatch: #6dd392; }
+[style*="#d4925a"] { --swatch: #f0a05a; }
+[style*="#c4849c"] { --swatch: #e879c0; }
 @media (max-width: 980px) {
   .subtitle.is-multi { display: none !important; }
   .episode-picker {

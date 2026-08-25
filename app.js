@@ -276,7 +276,7 @@
       if (el.title) el.title.textContent = eps.length + " episodes";
       document.title = eps.length + " episodes";
       if (sub) {
-        sub.textContent = eps.map((e) => e.title || e.id).join(" \u00b7 ");
+        sub.textContent = eps.map((e) => e.title || e.id).join(" · ");
         sub.classList.add("is-multi");
       }
     }
@@ -584,7 +584,7 @@
     }
     const tsDd = document.createElement("span");
     tsDd.className = "ts";
-    tsDd.textContent = n.timestamp ? n.timestamp : "\u2014";
+    tsDd.textContent = n.timestamp ? n.timestamp : "—";
     dl.appendChild(kvRow("Timestamp", tsDd));
     if (n.url) {
       const a = document.createElement("a");
@@ -610,7 +610,7 @@
     if (conns.length) {
       const lab = document.createElement("p");
       lab.className = "section-label";
-      lab.textContent = "Connections \u00b7 " + conns.length;
+      lab.textContent = "Connections · " + conns.length;
       const list = document.createElement("div");
       list.className = "conn";
       conns.forEach((c) => {
@@ -628,7 +628,7 @@
         who.appendChild(document.createTextNode(c.other.label));
         const reason = document.createElement("div");
         reason.className = "reason";
-        reason.textContent = c.reason + (c.other.episodeTitle && c.other.episodeId !== n.episodeId ? " \u00b7 " + c.other.episodeTitle : "");
+        reason.textContent = c.reason + (c.other.episodeTitle && c.other.episodeId !== n.episodeId ? " · " + c.other.episodeTitle : "");
         item.appendChild(who);
         item.appendChild(reason);
         list.appendChild(item);
@@ -923,7 +923,7 @@
     el.graph.classList.remove("is-ready");
     el.graph.textContent = "";
     el.loading.hidden = false;
-    el.loading.textContent = "Laying out graph\u2026";
+    el.loading.textContent = "Laying out graph…";
   }
   function buildNetwork() {
     const deg = degreeMap(raw.edges);

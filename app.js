@@ -3,14 +3,14 @@
   "use strict";
   const TYPE_ORDER = ["topic","person","website","paper","book","product","podcast","media"];
   const TYPE_META = {
-    topic:   { color: "#8fb7c9", label: "Topic" },
+    topic:   { color: "#5aa7e6", label: "Topic" },
     person:  { color: "#e8b84a", label: "Person" },
-    website: { color: "#6db8a8", label: "Website" },
-    paper:   { color: "#a690c4", label: "Paper" },
-    book:    { color: "#d07a68", label: "Book" },
-    product: { color: "#7fbf9a", label: "Product" },
-    podcast: { color: "#d4925a", label: "Podcast" },
-    media:   { color: "#c4849c", label: "Media" }
+    website: { color: "#3ecfbe", label: "Website" },
+    paper:   { color: "#b794f6", label: "Paper" },
+    book:    { color: "#f09090", label: "Book" },
+    product: { color: "#6dd392", label: "Product" },
+    podcast: { color: "#f0a05a", label: "Podcast" },
+    media:   { color: "#e879c0", label: "Media" }
   };
   const CLUSTER_GAP = 1200;
   const FONT = "IBM Plex Sans, Segoe UI, system-ui, sans-serif";

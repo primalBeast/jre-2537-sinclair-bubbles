@@ -134,6 +134,15 @@
     if (window.GRAPH_DATA && window.GRAPH_DATA.nodes) return window.GRAPH_DATA;
     throw new Error("Could not load graph for " + (ep && ep.id ? ep.id : "episode"));
   }
+  function formatCatalogDate(iso) {
+    const s = String(iso || "");
+    const m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return s;
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    const mon = months[parseInt(m[2], 10) - 1];
+    if (!mon) return s;
+    return parseInt(m[3], 10) + " " + mon + " " + m[1];
+  }
   function tagHub(n, ep) {
     const localId = localIdOf(n.id);
     if (localId === ep.id) return true;
@@ -153,6 +162,7 @@
         episodeId: ep.id,
         episodeTitle: ep.title || ep.id,
         episodeShow: ep.show || "",
+        episodeDate: ep.date || "",
         hub: hub,
         demo: !!ep.demo
       };
@@ -314,21 +324,24 @@
     const meta = TYPE_META[n.type] || { color: "#8b93a4", label: n.type };
     const color = meta.color;
     const isHub = isHubNode(n);
-    const fontSize = isHub ? 20 : 16 + Math.min(4, (deg || 0) / 4);
+    const fontSize = isHub ? 24 : 16 + Math.min(4, (deg || 0) / 4);
+    const dateLabel = formatCatalogDate(n.episodeDate || "");
+    const label = isHub && dateLabel ? (n.label + "\n" + dateLabel) : n.label;
     const node = {
       id: n.id,
-      label: n.label,
+      label: label,
       type: n.type,
       timestamp: n.timestamp || "",
       url: n.url || "",
       episodeId: n.episodeId || "",
       episodeTitle: n.episodeTitle || "",
+      episodeDate: n.episodeDate || "",
       hub: isHub,
       group: n.type,
       shape: "box",
       shapeProperties: { borderRadius: 16 },
-      margin: isHub ? 14 : 10,
-      widthConstraint: { maximum: isHub ? 188 : 148 },
+      margin: isHub ? 20 : 10,
+      widthConstraint: { maximum: isHub ? 280 : 148 },
       borderWidth: isHub ? 2 : 1.25,
       borderWidthSelected: 2.4,
       color: {
@@ -343,7 +356,7 @@
         color: "#08090c",
         strokeWidth: 0,
         strokeColor: "#08090c",
-        multi: false
+        multi: isHub && dateLabel ? true : false
       },
       shadow: { enabled: true, color: hexToRgba(color, isHub ? 0.55 : 0.32), size: isHub ? 22 : 12, x: 0, y: 0 },
       chosen: true
@@ -560,6 +573,11 @@
       const epDd = document.createElement("span");
       epDd.textContent = n.episodeTitle;
       dl.appendChild(kvRow("Episode", epDd));
+    }
+    if (n.episodeDate) {
+      const dateDd = document.createElement("span");
+      dateDd.textContent = formatCatalogDate(n.episodeDate);
+      dl.appendChild(kvRow("Released", dateDd));
     }
     const tsDd = document.createElement("span");
     tsDd.className = "ts";

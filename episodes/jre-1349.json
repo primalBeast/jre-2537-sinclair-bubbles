@@ -1,0 +1,1001 @@
+{
+  "nodes": [
+    {
+      "id": "jre-1349",
+      "label": "JRE #1349",
+      "type": "podcast",
+      "timestamp": "00:00:00",
+      "url": "https://www.youtube.com/watch?v=ZGLL77wYxe8"
+    },
+    {
+      "id": "topic-foxo3",
+      "label": "FOXO3",
+      "type": "topic",
+      "timestamp": "00:49:21"
+    },
+    {
+      "id": "topic-french-lilac",
+      "label": "French lilac",
+      "type": "topic",
+      "timestamp": "00:00:38"
+    },
+    {
+      "id": "topic-quercetin",
+      "label": "Quercetin",
+      "type": "topic",
+      "timestamp": "02:13:00"
+    },
+    {
+      "id": "topic-polyphenols",
+      "label": "Polyphenols",
+      "type": "topic",
+      "timestamp": "00:05:20"
+    },
+    {
+      "id": "topic-doxycycline",
+      "label": "Doxycycline",
+      "type": "topic",
+      "timestamp": "01:55:44"
+    },
+    {
+      "id": "topic-cgm",
+      "label": "CGM",
+      "type": "topic",
+      "timestamp": "01:14:00"
+    },
+    {
+      "id": "topic-senolytics",
+      "label": "Senolytics",
+      "type": "topic",
+      "timestamp": "02:13:00"
+    },
+    {
+      "id": "topic-methylation-clock",
+      "label": "Methylation clock",
+      "type": "topic",
+      "timestamp": "00:01:29"
+    },
+    {
+      "id": "topic-glaucoma-reprogramming",
+      "label": "Optic-nerve / glaucoma reprogramming",
+      "type": "topic",
+      "timestamp": "01:55:44"
+    },
+    {
+      "id": "topic-crispr-twins",
+      "label": "CRISPR twin girls",
+      "type": "topic",
+      "timestamp": "01:52:37"
+    },
+    {
+      "id": "topic-sirtuins",
+      "label": "Sirtuins",
+      "type": "topic",
+      "timestamp": "00:05:20"
+    },
+    {
+      "id": "joe-rogan",
+      "label": "Joe Rogan",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "david-sinclair",
+      "label": "David Sinclair",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "steve-horvath",
+      "label": "Steve Horvath",
+      "type": "person",
+      "timestamp": "00:01:41"
+    },
+    {
+      "id": "peter-hotez",
+      "label": "Peter Hotez",
+      "type": "person",
+      "timestamp": "00:13:23"
+    },
+    {
+      "id": "laird-hamilton",
+      "label": "Laird Hamilton",
+      "type": "person",
+      "timestamp": "00:15:24"
+    },
+    {
+      "id": "pablo-escobar",
+      "label": "Pablo Escobar",
+      "type": "person",
+      "timestamp": "00:15:32"
+    },
+    {
+      "id": "justin-wren",
+      "label": "Justin Wren",
+      "type": "person",
+      "timestamp": "00:21:29"
+    },
+    {
+      "id": "johnny-hamilton",
+      "label": "Johnny Hamilton",
+      "type": "person",
+      "timestamp": "00:27:26"
+    },
+    {
+      "id": "les-stroud",
+      "label": "Les Stroud",
+      "type": "person",
+      "timestamp": "00:30:29"
+    },
+    {
+      "id": "abraham",
+      "label": "Abraham",
+      "type": "person",
+      "timestamp": "00:36:56"
+    },
+    {
+      "id": "brad-pitt",
+      "label": "Brad Pitt",
+      "type": "person",
+      "timestamp": "00:42:15"
+    },
+    {
+      "id": "jamie-vernon",
+      "label": "Jamie Vernon",
+      "type": "person",
+      "timestamp": "00:42:23"
+    },
+    {
+      "id": "max-brooks",
+      "label": "Max Brooks",
+      "type": "person",
+      "timestamp": "00:43:48"
+    },
+    {
+      "id": "mel-brooks",
+      "label": "Mel Brooks",
+      "type": "person",
+      "timestamp": "00:43:48"
+    },
+    {
+      "id": "alex-daughter",
+      "label": "Alex",
+      "type": "person",
+      "timestamp": "00:45:34"
+    },
+    {
+      "id": "nir-barzilai",
+      "label": "Nir Barzilai",
+      "type": "person",
+      "timestamp": "00:50:01"
+    },
+    {
+      "id": "jeanne-calment",
+      "label": "Jeanne Calment",
+      "type": "person",
+      "timestamp": "00:51:24"
+    },
+    {
+      "id": "jack-lalanne",
+      "label": "Jack LaLanne",
+      "type": "person",
+      "timestamp": "01:04:09"
+    },
+    {
+      "id": "valter-longo",
+      "label": "Valter Longo",
+      "type": "person",
+      "timestamp": "01:10:22"
+    },
+    {
+      "id": "kevin-rose",
+      "label": "Kevin Rose",
+      "type": "person",
+      "timestamp": "01:13:28"
+    },
+    {
+      "id": "kyle-kingsbury",
+      "label": "Kyle Kingsbury",
+      "type": "person",
+      "timestamp": "01:17:29"
+    },
+    {
+      "id": "jean-marc",
+      "label": "Jean-Marc",
+      "type": "person",
+      "timestamp": "01:26:43"
+    },
+    {
+      "id": "rhonda-patrick",
+      "label": "Rhonda Patrick",
+      "type": "person",
+      "timestamp": "01:28:53"
+    },
+    {
+      "id": "chris-kresser",
+      "label": "Chris Kresser",
+      "type": "person",
+      "timestamp": "01:30:11"
+    },
+    {
+      "id": "anthony-bourdain",
+      "label": "Anthony Bourdain",
+      "type": "person",
+      "timestamp": "01:37:37"
+    },
+    {
+      "id": "matthew-walker",
+      "label": "Matthew Walker",
+      "type": "person",
+      "timestamp": "01:41:21"
+    },
+    {
+      "id": "george-church",
+      "label": "George Church",
+      "type": "person",
+      "timestamp": "01:50:39"
+    },
+    {
+      "id": "he-jiankui",
+      "label": "He Jiankui",
+      "type": "person",
+      "timestamp": "01:52:45"
+    },
+    {
+      "id": "shinya-yamanaka",
+      "label": "Shinya Yamanaka",
+      "type": "person",
+      "timestamp": "01:55:55"
+    },
+    {
+      "id": "elon-musk",
+      "label": "Elon Musk",
+      "type": "person",
+      "timestamp": "00:30:23"
+    },
+    {
+      "id": "sinclair-father",
+      "label": "Sinclair's father",
+      "type": "person"
+    },
+    {
+      "id": "sinclair-grandmother",
+      "label": "Sinclair's grandmother",
+      "type": "person"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "type": "website",
+      "timestamp": "00:16:17"
+    },
+    {
+      "id": "cash-app",
+      "label": "Cash App",
+      "type": "website",
+      "timestamp": "00:21:38"
+    },
+    {
+      "id": "23andme",
+      "label": "23andMe",
+      "type": "website",
+      "timestamp": "00:49:21"
+    },
+    {
+      "id": "digg",
+      "label": "Digg.com",
+      "type": "website",
+      "timestamp": "01:13:35"
+    },
+    {
+      "id": "pubmed-central",
+      "label": "PubMed Central",
+      "type": "website",
+      "timestamp": "01:18:08"
+    },
+    {
+      "id": "fda",
+      "label": "FDA",
+      "type": "website",
+      "timestamp": "01:23:38"
+    },
+    {
+      "id": "google",
+      "label": "Google",
+      "type": "website",
+      "timestamp": "01:25:21"
+    },
+    {
+      "id": "prior-jre-1234",
+      "label": "JRE #1234",
+      "type": "podcast",
+      "timestamp": "00:08:54"
+    },
+    {
+      "id": "jre-peter-hotez",
+      "label": "JRE with Peter Hotez",
+      "type": "podcast",
+      "timestamp": "00:13:23"
+    },
+    {
+      "id": "jre-matthew-walker",
+      "label": "JRE with Matthew Walker",
+      "type": "podcast",
+      "timestamp": "01:41:21"
+    },
+    {
+      "id": "paper-metformin-dhea-hgh",
+      "label": "metformin+DHEA+HGH study in press",
+      "type": "paper",
+      "timestamp": "00:00:26"
+    },
+    {
+      "id": "paper-metformin-treadmill",
+      "label": "metformin + treadmill",
+      "type": "paper",
+      "timestamp": "00:08:54"
+    },
+    {
+      "id": "paper-resveratrol-exercise",
+      "label": "resveratrol + hard-exercise interference",
+      "type": "paper",
+      "timestamp": "00:09:16"
+    },
+    {
+      "id": "paper-mayo-senescent",
+      "label": "Mayo Clinic senescent-cell deletion in old mice",
+      "type": "paper",
+      "timestamp": "02:13:35"
+    },
+    {
+      "id": "paper-resveratrol-hfd-2003",
+      "label": "2003 resveratrol + high-fat-diet mice",
+      "type": "paper",
+      "timestamp": "01:35:00"
+    },
+    {
+      "id": "book-lifespan",
+      "label": "Lifespan",
+      "type": "book",
+      "timestamp": "00:00:05"
+    },
+    {
+      "id": "book-world-war-z",
+      "label": "World War Z",
+      "type": "book",
+      "timestamp": "00:43:48"
+    },
+    {
+      "id": "metformin",
+      "label": "Metformin",
+      "type": "product",
+      "timestamp": "00:00:38"
+    },
+    {
+      "id": "dhea",
+      "label": "DHEA",
+      "type": "product",
+      "timestamp": "00:00:38"
+    },
+    {
+      "id": "hgh",
+      "label": "HGH",
+      "type": "product",
+      "timestamp": "00:00:38"
+    },
+    {
+      "id": "resveratrol",
+      "label": "Resveratrol",
+      "type": "product",
+      "timestamp": "00:05:20"
+    },
+    {
+      "id": "nmn",
+      "label": "NMN",
+      "type": "product",
+      "timestamp": "00:06:49"
+    },
+    {
+      "id": "rapamycin",
+      "label": "Rapamycin",
+      "type": "product",
+      "timestamp": "00:08:38"
+    },
+    {
+      "id": "cryotherapy",
+      "label": "Cryotherapy",
+      "type": "product",
+      "timestamp": "00:14:49"
+    },
+    {
+      "id": "infrared-sauna",
+      "label": "Infrared sauna",
+      "type": "product",
+      "timestamp": "00:15:16"
+    },
+    {
+      "id": "laird-superfood",
+      "label": "Laird Superfood coffee",
+      "type": "product",
+      "timestamp": "00:15:24"
+    },
+    {
+      "id": "flamethrower",
+      "label": "Elon Musk flamethrower",
+      "type": "product",
+      "timestamp": "00:30:23"
+    },
+    {
+      "id": "oura",
+      "label": "Oura",
+      "type": "product",
+      "timestamp": "01:13:21"
+    },
+    {
+      "id": "apple-watch",
+      "label": "Apple Watch",
+      "type": "product",
+      "timestamp": "01:14:00"
+    },
+    {
+      "id": "iv-nad",
+      "label": "IV NAD",
+      "type": "product",
+      "timestamp": "01:17:29"
+    },
+    {
+      "id": "nad",
+      "label": "NAD",
+      "type": "product",
+      "timestamp": "01:17:29"
+    },
+    {
+      "id": "ambien",
+      "label": "Ambien",
+      "type": "product",
+      "timestamp": "01:41:55"
+    },
+    {
+      "id": "melatonin",
+      "label": "Melatonin",
+      "type": "product",
+      "timestamp": "01:42:44"
+    },
+    {
+      "id": "vitamin-d",
+      "label": "Vitamin D",
+      "type": "product",
+      "timestamp": "01:44:39"
+    },
+    {
+      "id": "nr",
+      "label": "NR",
+      "type": "product",
+      "timestamp": "01:49:48"
+    },
+    {
+      "id": "spark-therapeutics",
+      "label": "Spark Therapeutics",
+      "type": "product",
+      "timestamp": "01:56:55"
+    },
+    {
+      "id": "exosomes",
+      "label": "exosomes / Wharton's Jelly",
+      "type": "product",
+      "timestamp": "02:07:06"
+    },
+    {
+      "id": "unity",
+      "label": "Unity OA trial",
+      "type": "product",
+      "timestamp": "02:15:53"
+    },
+    {
+      "id": "senolytic-therapeutics",
+      "label": "Senolytic Therapeutics",
+      "type": "product",
+      "timestamp": "02:15:53"
+    },
+    {
+      "id": "whole-foods",
+      "label": "Whole Foods",
+      "type": "product",
+      "timestamp": "01:23:10"
+    },
+    {
+      "id": "raw-milk",
+      "label": "Raw milk",
+      "type": "product",
+      "timestamp": "01:23:10"
+    },
+    {
+      "id": "crispr",
+      "label": "CRISPR",
+      "type": "product",
+      "timestamp": "01:52:37"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jre-1349",
+      "to": "david-sinclair",
+      "reason": "guest"
+    },
+    {
+      "from": "jre-1349",
+      "to": "joe-rogan",
+      "reason": "host"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "book-lifespan",
+      "reason": "author; new book now available"
+    },
+    {
+      "from": "paper-metformin-dhea-hgh",
+      "to": "metformin",
+      "reason": "n=9 in press; name not spoken"
+    },
+    {
+      "from": "paper-metformin-dhea-hgh",
+      "to": "dhea",
+      "reason": "same protocol"
+    },
+    {
+      "from": "paper-metformin-dhea-hgh",
+      "to": "hgh",
+      "reason": "same protocol"
+    },
+    {
+      "from": "steve-horvath",
+      "to": "paper-metformin-dhea-hgh",
+      "reason": "Horvath with Sinclair in Israel"
+    },
+    {
+      "from": "steve-horvath",
+      "to": "topic-methylation-clock",
+      "reason": "bio-age / clock"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "steve-horvath",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "resveratrol",
+      "reason": "takes ~1g in yogurt"
+    },
+    {
+      "from": "resveratrol",
+      "to": "topic-sirtuins",
+      "reason": "polyphenol / sirtuin thread"
+    },
+    {
+      "from": "resveratrol",
+      "to": "topic-polyphenols",
+      "reason": "same stretch"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nmn",
+      "reason": "takes"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "rapamycin",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "paper-metformin-treadmill",
+      "to": "metformin",
+      "reason": "mito amplification blunted"
+    },
+    {
+      "from": "prior-jre-1234",
+      "to": "metformin",
+      "reason": "prior JRE metformin + athletes"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "prior-jre-1234",
+      "reason": "#1234 implied"
+    },
+    {
+      "from": "paper-resveratrol-exercise",
+      "to": "resveratrol",
+      "reason": "hard-exercise interference; unnamed paper"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-resveratrol-exercise",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "metformin",
+      "to": "topic-french-lilac",
+      "reason": "origin plant"
+    },
+    {
+      "from": "peter-hotez",
+      "to": "jre-peter-hotez",
+      "reason": "prior JRE guest"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "jre-peter-hotez",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "cryotherapy",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "laird-hamilton",
+      "to": "infrared-sauna",
+      "reason": "Instagram sauna/bike"
+    },
+    {
+      "from": "laird-hamilton",
+      "to": "laird-superfood",
+      "reason": "Laird Superfood coffee"
+    },
+    {
+      "from": "laird-hamilton",
+      "to": "instagram",
+      "reason": "posted sauna/bike"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "laird-hamilton",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "pablo-escobar",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "justin-wren",
+      "to": "cash-app",
+      "reason": "Fight for the Forgotten"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "justin-wren",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "johnny-hamilton",
+      "reason": "Colorado ranch"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "les-stroud",
+      "reason": "Survivorman"
+    },
+    {
+      "from": "elon-musk",
+      "to": "flamethrower",
+      "reason": "joke"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "elon-musk",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "abraham",
+      "reason": "Kaaba / Ismail/Ishmael stretch"
+    },
+    {
+      "from": "brad-pitt",
+      "to": "book-world-war-z",
+      "reason": "film vs book thread"
+    },
+    {
+      "from": "max-brooks",
+      "to": "book-world-war-z",
+      "reason": "author"
+    },
+    {
+      "from": "mel-brooks",
+      "to": "max-brooks",
+      "reason": "father/son"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "brad-pitt",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "jamie-vernon",
+      "reason": "producer; also 01:57:07"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "alex-daughter",
+      "reason": "oldest daughter, 16; stone tools"
+    },
+    {
+      "from": "23andme",
+      "to": "topic-foxo3",
+      "reason": "FOXO3"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "23andme",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "nir-barzilai",
+      "to": "metformin",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nir-barzilai",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "jeanne-calment",
+      "reason": "122"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "jack-lalanne",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "valter-longo",
+      "reason": "has written a book; title not spoken"
+    },
+    {
+      "from": "kevin-rose",
+      "to": "oura",
+      "reason": "Digg.com / Oura"
+    },
+    {
+      "from": "kevin-rose",
+      "to": "digg",
+      "reason": "Digg.com"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "oura",
+      "reason": "spells O-U-R-A"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "apple-watch",
+      "reason": "Watch 5 released today"
+    },
+    {
+      "from": "apple-watch",
+      "to": "topic-cgm",
+      "reason": "wearables stretch"
+    },
+    {
+      "from": "kyle-kingsbury",
+      "to": "iv-nad",
+      "reason": "IV NAD"
+    },
+    {
+      "from": "iv-nad",
+      "to": "nad",
+      "reason": "same molecule"
+    },
+    {
+      "from": "nr",
+      "to": "nad",
+      "reason": "NAD precursor"
+    },
+    {
+      "from": "nmn",
+      "to": "nad",
+      "reason": "NAD precursor"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "pubmed-central",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "whole-foods",
+      "to": "raw-milk",
+      "reason": "spoken; Erewhon uncertain ASR"
+    },
+    {
+      "from": "fda",
+      "to": "raw-milk",
+      "reason": "raw milk"
+    },
+    {
+      "from": "google",
+      "to": "raw-milk",
+      "reason": "Google-able raw milk raid"
+    },
+    {
+      "from": "jean-marc",
+      "to": "raw-milk",
+      "reason": "unpasteurized cheese"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "rhonda-patrick",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "chris-kresser",
+      "to": "david-sinclair",
+      "reason": "potato-hack on-screen, not a journal cite"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "anthony-bourdain",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "matthew-walker",
+      "to": "jre-matthew-walker",
+      "reason": "prior JRE; sleep/Ambien"
+    },
+    {
+      "from": "matthew-walker",
+      "to": "ambien",
+      "reason": "sleep/Ambien"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "ambien",
+      "reason": "~1mg"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "melatonin",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "vitamin-d",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nr",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "george-church",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "he-jiankui",
+      "to": "topic-crispr-twins",
+      "reason": "CCR5; named in this episode"
+    },
+    {
+      "from": "topic-crispr-twins",
+      "to": "crispr",
+      "reason": "same method"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "he-jiankui",
+      "reason": "Sinclair cites; last name is He"
+    },
+    {
+      "from": "shinya-yamanaka",
+      "to": "topic-glaucoma-reprogramming",
+      "reason": "2012 Nobel; 3-gene + doxycycline"
+    },
+    {
+      "from": "topic-glaucoma-reprogramming",
+      "to": "topic-doxycycline",
+      "reason": "planned eye trials starting in two years"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "shinya-yamanaka",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "spark-therapeutics",
+      "to": "topic-glaucoma-reprogramming",
+      "reason": "viral eye gene therapy"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "spark-therapeutics",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "exosomes",
+      "reason": "Wharton's Jelly"
+    },
+    {
+      "from": "paper-mayo-senescent",
+      "to": "topic-senolytics",
+      "reason": "Mayo group unnamed PIs"
+    },
+    {
+      "from": "topic-quercetin",
+      "to": "topic-senolytics",
+      "reason": "same stretch"
+    },
+    {
+      "from": "unity",
+      "to": "topic-senolytics",
+      "reason": "OA clinical trial"
+    },
+    {
+      "from": "senolytic-therapeutics",
+      "to": "topic-senolytics",
+      "reason": "Europe; Sinclair-involved; preclinical"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "senolytic-therapeutics",
+      "reason": "Sinclair-involved"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-mayo-senescent",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-resveratrol-hfd-2003",
+      "to": "resveratrol",
+      "reason": "high-fat-diet mice"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-resveratrol-hfd-2003",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "nmn",
+      "reason": "takes (~80)"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "metformin",
+      "reason": "takes"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "resveratrol",
+      "reason": "takes"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-father",
+      "reason": "family"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-grandmother",
+      "reason": "WW2 Hungary/Australia"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-metformin-dhea-hgh",
+      "reason": "Sinclair on the in-press study"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-metformin-treadmill",
+      "reason": "Sinclair cites"
+    }
+  ]
+}

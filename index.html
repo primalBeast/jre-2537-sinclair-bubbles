@@ -6,19 +6,21 @@
   <meta name="theme-color" content="#09080c">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <title>JRE #2537 — David Sinclair</title>
+  <title>Podcast graphs</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./overrides.css">
+  <link rel="stylesheet" href="./rail.css">
 </head>
 <body>
   <div id="grain" aria-hidden="true"></div>
   <div id="app">
     <header>
       <div class="brand">
-        <p class="eyebrow">Joe Rogan Experience</p>
-        <h1>JRE #2537 — David Sinclair</h1>
+        <p class="eyebrow">Podcast graphs</p>
+        <h1>Podcast graphs</h1>
         <p class="subtitle">topics, websites, and podcasts from the episode.</p>
       </div>
       <div class="controls">
@@ -37,30 +39,41 @@
       </div>
       <div id="legend" class="legend" aria-label="Filter by type"></div>
     </header>
-    <main>
-      <div id="graph-wrap">
-        <div id="graph" role="img" aria-label="Topic bubble graph"></div>
-        <div id="loading">Laying out graph…</div>
-        <p class="tap-hint">Tap a bubble</p>
-        <div class="graph-tools">
-          <button type="button" id="btn-fit">Fit</button>
-          <button type="button" id="btn-reset">Reset</button>
-        </div>
-        <div id="tooltip" hidden></div>
-      </div>
-      <aside id="sidebar">
+    <div class="workspace">
+      <aside id="catalog-rail" class="catalog-rail" aria-label="Episode catalog">
         <div class="sheet-handle" aria-hidden="true"></div>
-        <div class="empty" id="empty-state">
-          <h2>Click a bubble</h2>
-          <p>Select a topic, person, paper, or anything else to see its timestamp, link, and the reasons it is connected.</p>
-          <p class="hint desk-hint">Drag to rearrange · scroll to zoom · click empty space to deselect · <kbd>Esc</kbd> clears search.</p>
-        </div>
-        <div id="detail" hidden></div>
+        <button type="button" id="btn-rail-close" class="rail-close" hidden>Close</button>
+        <div id="episode-picker" class="episode-picker" role="group" aria-label="Select episodes"></div>
       </aside>
-    </main>
+      <main>
+        <div id="graph-wrap">
+          <div id="graph" role="img" aria-label="Topic bubble graph"></div>
+          <div id="loading">Laying out graph…</div>
+          <p class="tap-hint">Tap a bubble</p>
+          <div class="graph-tools">
+            <button type="button" id="btn-catalog">Episodes</button>
+            <button type="button" id="btn-fit">Fit</button>
+            <button type="button" id="btn-reset">Reset</button>
+          </div>
+          <div id="tooltip" hidden></div>
+        </div>
+        <aside id="sidebar">
+          <div class="sheet-handle" aria-hidden="true"></div>
+          <button type="button" id="btn-close" class="close-sheet" hidden>Close</button>
+          <div class="empty" id="empty-state">
+            <h2>Click a bubble</h2>
+            <p>Select a topic, person, paper, or anything else to see its timestamp, link, and the reasons it is connected.</p>
+            <p class="hint desk-hint">Drag to rearrange · scroll to zoom · click empty space to deselect · <kbd>Esc</kbd> clears search.</p>
+          </div>
+          <div id="detail" hidden></div>
+        </aside>
+      </main>
+    </div>
   </div>
   <script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+  <script src="./palette.js"></script>
   <script src="./graph-data.js"></script>
   <script src="./app.js"></script>
+  <script src="./rail.js"></script>
 </body>
 </html>

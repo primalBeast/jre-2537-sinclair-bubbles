@@ -1,0 +1,1051 @@
+{
+  "nodes": [
+    {
+      "id": "aa-rogan",
+      "label": "American Alchemy: The Truth About Aliens",
+      "type": "podcast",
+      "timestamp": "00:00:00",
+      "url": "https://www.youtube.com/watch?v=C_Na1tI5qpw"
+    },
+    {
+      "id": "topic-younger-dryas",
+      "label": "Younger Dryas",
+      "type": "topic",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "topic-uap",
+      "label": "UAP",
+      "type": "topic",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "topic-pyramids",
+      "label": "pyramid SAR scans",
+      "type": "topic",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "topic-telepathy",
+      "label": "Telepathy",
+      "type": "topic",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "topic-dmt",
+      "label": "DMT",
+      "type": "topic",
+      "timestamp": "01:25:37"
+    },
+    {
+      "id": "topic-moon-landing",
+      "label": "Moon Landing",
+      "type": "topic",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "topic-tridactyl",
+      "label": "Tridactyl / Peru mummies",
+      "type": "topic",
+      "timestamp": "02:00:50"
+    },
+    {
+      "id": "topic-epstein",
+      "label": "Epstein",
+      "type": "topic",
+      "timestamp": "02:13:30"
+    },
+    {
+      "id": "topic-jfk",
+      "label": "JFK",
+      "type": "topic",
+      "timestamp": "02:23:45"
+    },
+    {
+      "id": "jesse-michels",
+      "label": "Jesse Michels",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "joe-rogan",
+      "label": "Joe Rogan",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "bret-weinstein",
+      "label": "Bret Weinstein",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "betty-hill",
+      "label": "Betty Hill",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "barney-hill",
+      "label": "Barney Hill",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "angela-hill",
+      "label": "Angela Hill",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "gavin-de-becker",
+      "label": "Gavin de Becker",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "anthony-fauci",
+      "label": "Anthony Fauci",
+      "type": "person",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "j-allen-hynek",
+      "label": "J. Allen Hynek",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "philip-corso",
+      "label": "Philip Corso",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "lazar",
+      "label": "Lazar",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "jeremy-corbell",
+      "label": "Jeremy Corbell",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "george-knapp",
+      "label": "George Knapp",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "hal-puthoff",
+      "label": "Hal Puthoff",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "david-grusch",
+      "label": "David Grusch",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "thomas-monheim",
+      "label": "Thomas Monheim",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "obama",
+      "label": "Obama",
+      "type": "person",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "dan-farah",
+      "label": "Dan Farah",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "james-woolsey",
+      "label": "James Woolsey",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "james-clapper",
+      "label": "James Clapper",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "john-brennan",
+      "label": "John Brennan",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "marco-rubio",
+      "label": "Marco Rubio",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "chuck-schumer",
+      "label": "Chuck Schumer",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "tim-burchett",
+      "label": "Tim Burchett",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "palmer-luckey",
+      "label": "Palmer Luckey",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "elon-musk",
+      "label": "Elon Musk",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "whitley-strieber",
+      "label": "Whitley Strieber",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "edward-teller",
+      "label": "Edward Teller",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "marc-andreessen",
+      "label": "Marc Andreessen",
+      "type": "person",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "matthew-pines",
+      "label": "Matthew Pines",
+      "type": "person",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "randall-carlson",
+      "label": "Randall Carlson",
+      "type": "person",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "graham-hancock",
+      "label": "Graham Hancock",
+      "type": "person",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "zahi-hawass",
+      "label": "Zahi Hawass",
+      "type": "person",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "wes-huff",
+      "label": "Wes Huff",
+      "type": "person",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "art-bell",
+      "label": "Art Bell",
+      "type": "person",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "duncan-trussell",
+      "label": "Duncan Trussell",
+      "type": "person",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "filippo-biondi",
+      "label": "Filippo Biondi",
+      "type": "person",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "david-sinclair",
+      "label": "David Sinclair",
+      "type": "person",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "terence-mckenna",
+      "label": "Terence McKenna",
+      "type": "person",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "adam-greentree",
+      "label": "Adam Greentree",
+      "type": "person",
+      "timestamp": "01:01:38"
+    },
+    {
+      "id": "ky-dickens",
+      "label": "Ky Dickens",
+      "type": "person",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "brian-muraresku",
+      "label": "Brian Muraresku",
+      "type": "person",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "michio-kaku",
+      "label": "Michio Kaku",
+      "type": "person",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "danny-jones",
+      "label": "Danny Jones",
+      "type": "person",
+      "timestamp": "01:25:37"
+    },
+    {
+      "id": "aj-yfiles",
+      "label": "AJ",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "ben-van-kerkwyk",
+      "label": "Ben van Kerkwyk",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "bart-sibrel",
+      "label": "Bart Sibrel",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "charlie-duke",
+      "label": "Charlie Duke",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "neil-armstrong",
+      "label": "Neil Armstrong",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "michael-collins",
+      "label": "Michael Collins",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "gus-grissom",
+      "label": "Gus Grissom",
+      "type": "person",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "google-earth",
+      "label": "Google Earth",
+      "type": "website",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "jesse-youtube",
+      "label": "youtube.com/@JesseMichels",
+      "type": "website",
+      "url": "https://www.youtube.com/@JesseMichels"
+    },
+    {
+      "id": "american-alchemy",
+      "label": "American Alchemy",
+      "type": "podcast",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "jre-bret-weinstein",
+      "label": "prior JRE Bret Weinstein",
+      "type": "podcast",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "jre-angela-hill",
+      "label": "prior JRE Angela Hill",
+      "type": "podcast",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "jre-gavin-de-becker",
+      "label": "prior JRE Gavin de Becker",
+      "type": "podcast",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "jre-lazar",
+      "label": "prior JRE Lazar",
+      "type": "podcast",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "jre-andreessen",
+      "label": "prior JRE Marc Andreessen",
+      "type": "podcast",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "jre-palmer-luckey",
+      "label": "prior JRE Palmer Luckey",
+      "type": "podcast",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "jre-bart-sibrel",
+      "label": "prior JRE Bart Sibrel",
+      "type": "podcast",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "coast-to-coast",
+      "label": "Coast to Coast AM",
+      "type": "podcast",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "danny-jones-podcast",
+      "label": "Danny Jones podcast",
+      "type": "podcast",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "y-files",
+      "label": "Y Files",
+      "type": "podcast",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "unchartedx",
+      "label": "UnchartedX",
+      "type": "podcast",
+      "timestamp": "01:35:32"
+    },
+    {
+      "id": "telepathy-tapes",
+      "label": "The Telepathy Tapes",
+      "type": "podcast",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "media-close-encounters",
+      "label": "Close Encounters of the Third Kind",
+      "type": "media",
+      "timestamp": "00:02:26"
+    },
+    {
+      "id": "media-age-of-disclosure",
+      "label": "Age of Disclosure",
+      "type": "media",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "media-oppenheimer",
+      "label": "Oppenheimer",
+      "type": "media",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "media-corbell-lazar",
+      "label": "Jeremy Corbell Lazar documentary",
+      "type": "media",
+      "timestamp": "00:13:50"
+    },
+    {
+      "id": "media-chimp-empire",
+      "label": "Chimp Empire",
+      "type": "media",
+      "timestamp": "01:01:38"
+    },
+    {
+      "id": "media-matrix",
+      "label": "The Matrix",
+      "type": "media",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "paper-puthoff-ultraterrestrials",
+      "label": "Hal Puthoff ultra-terrestrials paper",
+      "type": "paper",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "paper-biondi-sar",
+      "label": "Biondi SAR / Doppler tomography pyramid scans",
+      "type": "paper",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "paper-israel-hbot",
+      "label": "Israel HBOT study",
+      "type": "paper",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "paper-willow",
+      "label": "Google Willow chip",
+      "type": "paper",
+      "timestamp": "00:35:25"
+    },
+    {
+      "id": "paper-meltwater",
+      "label": "Meltwater Pulse 1B / Younger Dryas impact",
+      "type": "paper",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "book-fingerprints",
+      "label": "Fingerprints of the Gods",
+      "type": "book",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "book-timaeus",
+      "label": "Timaeus",
+      "type": "book",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "book-critias",
+      "label": "Critias",
+      "type": "book",
+      "timestamp": "00:46:43"
+    },
+    {
+      "id": "book-sumerian-kings",
+      "label": "Sumerian Kings List",
+      "type": "book",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "book-immortality-key",
+      "label": "The Immortality Key",
+      "type": "book",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "book-childhoods-end",
+      "label": "Childhood's End",
+      "type": "book",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "book-enoch",
+      "label": "Book of Enoch",
+      "type": "book",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "book-isaiah",
+      "label": "Book of Isaiah",
+      "type": "book",
+      "timestamp": "00:22:46"
+    },
+    {
+      "id": "nmn",
+      "label": "NMN",
+      "type": "product",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "hyperbaric",
+      "label": "Hyperbaric chamber",
+      "type": "product",
+      "timestamp": "00:49:30"
+    },
+    {
+      "id": "neuralink",
+      "label": "Neuralink",
+      "type": "product",
+      "timestamp": "01:01:38"
+    },
+    {
+      "id": "oura",
+      "label": "Oura",
+      "type": "product",
+      "timestamp": "01:01:38"
+    },
+    {
+      "id": "psilocybin",
+      "label": "psilocybin",
+      "type": "product",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "dmt",
+      "label": "DMT",
+      "type": "product",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "ibogaine",
+      "label": "ibogaine",
+      "type": "product",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "ayahuasca",
+      "label": "ayahuasca",
+      "type": "product",
+      "timestamp": "01:12:11"
+    },
+    {
+      "id": "adderall",
+      "label": "Adderall",
+      "type": "product",
+      "timestamp": "01:12:11"
+    }
+  ],
+  "edges": [
+    {
+      "from": "aa-rogan",
+      "to": "jesse-michels",
+      "reason": "host"
+    },
+    {
+      "from": "aa-rogan",
+      "to": "joe-rogan",
+      "reason": "guest"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "american-alchemy",
+      "reason": "his show"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "jesse-youtube",
+      "reason": "show-notes YouTube"
+    },
+    {
+      "from": "bret-weinstein",
+      "to": "jre-bret-weinstein",
+      "reason": "prior JRE; dream the morning of that taping"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "jre-bret-weinstein",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "media-close-encounters",
+      "reason": "visual reference"
+    },
+    {
+      "from": "angela-hill",
+      "to": "jre-angela-hill",
+      "reason": "prior JRE; did not mention Barney Hill until after taping"
+    },
+    {
+      "from": "betty-hill",
+      "to": "barney-hill",
+      "reason": "same encounter"
+    },
+    {
+      "from": "angela-hill",
+      "to": "barney-hill",
+      "reason": "same family thread"
+    },
+    {
+      "from": "gavin-de-becker",
+      "to": "jre-gavin-de-becker",
+      "reason": "prior JRE"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "anthony-fauci",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "j-allen-hynek",
+      "to": "topic-uap",
+      "reason": "Project Blue Book"
+    },
+    {
+      "from": "philip-corso",
+      "to": "topic-uap",
+      "reason": "Corso stuff; Day After Roswell title not spoken"
+    },
+    {
+      "from": "lazar",
+      "to": "jre-lazar",
+      "reason": "prior JRE; ~63 million views"
+    },
+    {
+      "from": "jeremy-corbell",
+      "to": "media-corbell-lazar",
+      "reason": "Bob Lazar / Area 51 documentary"
+    },
+    {
+      "from": "lazar",
+      "to": "media-corbell-lazar",
+      "reason": "same film"
+    },
+    {
+      "from": "george-knapp",
+      "to": "lazar",
+      "reason": "same Area 51 stretch"
+    },
+    {
+      "from": "hal-puthoff",
+      "to": "paper-puthoff-ultraterrestrials",
+      "reason": "you just had Hal Puthoff on"
+    },
+    {
+      "from": "david-grusch",
+      "to": "topic-uap",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "thomas-monheim",
+      "to": "david-grusch",
+      "reason": "IG"
+    },
+    {
+      "from": "obama",
+      "to": "topic-uap",
+      "reason": "Area 51 confirmation"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "google-earth",
+      "reason": "S4 / Point Dume blur"
+    },
+    {
+      "from": "dan-farah",
+      "to": "media-age-of-disclosure",
+      "reason": "The Age of Disclosure"
+    },
+    {
+      "from": "media-age-of-disclosure",
+      "to": "topic-uap",
+      "reason": "Gimbal / GoFast clips"
+    },
+    {
+      "from": "edward-teller",
+      "to": "media-oppenheimer",
+      "reason": "H-bomb scene"
+    },
+    {
+      "from": "wes-huff",
+      "to": "book-enoch",
+      "reason": "Dead Sea Scrolls / Book of Isaiah"
+    },
+    {
+      "from": "book-enoch",
+      "to": "book-isaiah",
+      "reason": "same stretch"
+    },
+    {
+      "from": "james-woolsey",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "james-clapper",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "john-brennan",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "marco-rubio",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "chuck-schumer",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "tim-burchett",
+      "to": "topic-uap",
+      "reason": "disclosure stretch"
+    },
+    {
+      "from": "palmer-luckey",
+      "to": "jre-palmer-luckey",
+      "reason": "prior JRE"
+    },
+    {
+      "from": "elon-musk",
+      "to": "neuralink",
+      "reason": "telepathy patent claim"
+    },
+    {
+      "from": "whitley-strieber",
+      "to": "joe-rogan",
+      "reason": "books/movies; titles not named"
+    },
+    {
+      "from": "marc-andreessen",
+      "to": "jre-andreessen",
+      "reason": "prior JRE; Willow/quantum heat-death"
+    },
+    {
+      "from": "paper-willow",
+      "to": "marc-andreessen",
+      "reason": "2.6-billion-year supercomputer claim"
+    },
+    {
+      "from": "matthew-pines",
+      "to": "david-grusch",
+      "reason": "CIA triangle: AI, quantum, Grusch"
+    },
+    {
+      "from": "randall-carlson",
+      "to": "graham-hancock",
+      "reason": "ancient cataclysm stretch"
+    },
+    {
+      "from": "graham-hancock",
+      "to": "book-fingerprints",
+      "reason": "author"
+    },
+    {
+      "from": "graham-hancock",
+      "to": "duncan-trussell",
+      "reason": "early JRE"
+    },
+    {
+      "from": "zahi-hawass",
+      "to": "topic-pyramids",
+      "reason": "in my book; title not spoken"
+    },
+    {
+      "from": "art-bell",
+      "to": "coast-to-coast",
+      "reason": "Coast to Coast AM"
+    },
+    {
+      "from": "book-timaeus",
+      "to": "book-critias",
+      "reason": "Solon / Atlantis 9600 BC"
+    },
+    {
+      "from": "graham-hancock",
+      "to": "book-timaeus",
+      "reason": "same Atlantis stretch"
+    },
+    {
+      "from": "filippo-biondi",
+      "to": "paper-biondi-sar",
+      "reason": "columns, coils, ~1 km; 80 m chambers"
+    },
+    {
+      "from": "paper-biondi-sar",
+      "to": "topic-pyramids",
+      "reason": "same scans"
+    },
+    {
+      "from": "paper-meltwater",
+      "to": "topic-younger-dryas",
+      "reason": "core samples, iridium; Taurids"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nmn",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-israel-hbot",
+      "reason": "Jerusalem 60 x 90-day telomere study; young-plasma mice"
+    },
+    {
+      "from": "paper-israel-hbot",
+      "to": "hyperbaric",
+      "reason": "same protocol"
+    },
+    {
+      "from": "oura",
+      "to": "hyperbaric",
+      "reason": "with hyperbaric"
+    },
+    {
+      "from": "terence-mckenna",
+      "to": "topic-dmt",
+      "reason": "stoned ape"
+    },
+    {
+      "from": "adam-greentree",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "neuralink",
+      "to": "topic-telepathy",
+      "reason": "telepathy patent claim"
+    },
+    {
+      "from": "ky-dickens",
+      "to": "telepathy-tapes",
+      "reason": "The Telepathy Tapes"
+    },
+    {
+      "from": "telepathy-tapes",
+      "to": "topic-telepathy",
+      "reason": "same"
+    },
+    {
+      "from": "media-matrix",
+      "to": "topic-telepathy",
+      "reason": "language install"
+    },
+    {
+      "from": "brian-muraresku",
+      "to": "book-immortality-key",
+      "reason": "author"
+    },
+    {
+      "from": "book-childhoods-end",
+      "to": "ky-dickens",
+      "reason": "Arthur C. Clarke; same stretch"
+    },
+    {
+      "from": "michio-kaku",
+      "to": "joe-rogan",
+      "reason": "prior JRE / Opie and Anthony"
+    },
+    {
+      "from": "dmt",
+      "to": "topic-dmt",
+      "reason": "explainer clip; Rogan's first 5-MeO-DMT"
+    },
+    {
+      "from": "psilocybin",
+      "to": "topic-dmt",
+      "reason": "same psychedelic stretch"
+    },
+    {
+      "from": "ibogaine",
+      "to": "topic-dmt",
+      "reason": "Texas veterans"
+    },
+    {
+      "from": "ayahuasca",
+      "to": "topic-dmt",
+      "reason": "same stretch"
+    },
+    {
+      "from": "adderall",
+      "to": "psilocybin",
+      "reason": "same meds stretch"
+    },
+    {
+      "from": "danny-jones",
+      "to": "danny-jones-podcast",
+      "reason": "Bart Sibrel vs Charlie Duke"
+    },
+    {
+      "from": "bart-sibrel",
+      "to": "jre-bart-sibrel",
+      "reason": "prior JRE"
+    },
+    {
+      "from": "bart-sibrel",
+      "to": "topic-moon-landing",
+      "reason": "vs Charlie Duke"
+    },
+    {
+      "from": "charlie-duke",
+      "to": "topic-moon-landing",
+      "reason": "same debate"
+    },
+    {
+      "from": "neil-armstrong",
+      "to": "topic-moon-landing",
+      "reason": "Apollo 11"
+    },
+    {
+      "from": "michael-collins",
+      "to": "topic-moon-landing",
+      "reason": "no stars vs 1994 book"
+    },
+    {
+      "from": "gus-grissom",
+      "to": "topic-moon-landing",
+      "reason": "Apollo 1 lemon anecdote"
+    },
+    {
+      "from": "aj-yfiles",
+      "to": "y-files",
+      "reason": "AJ / Y Files"
+    },
+    {
+      "from": "ben-van-kerkwyk",
+      "to": "unchartedx",
+      "reason": "UnchartedX"
+    },
+    {
+      "from": "book-sumerian-kings",
+      "to": "topic-younger-dryas",
+      "reason": "documentary Rogan watched"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "media-chimp-empire",
+      "reason": "Netflix"
+    },
+    {
+      "from": "topic-tridactyl",
+      "to": "aa-rogan",
+      "reason": "Apple chapter 2:00:50 / trailer; no Ruiz/Zalce in retrieved text"
+    },
+    {
+      "from": "topic-epstein",
+      "to": "topic-uap",
+      "reason": "trailer/notes: same problem as UAP disclosure"
+    },
+    {
+      "from": "topic-jfk",
+      "to": "aa-rogan",
+      "reason": "Apple chapter 2:23:45 / trailer; Kissinger not treated as spoken"
+    },
+    {
+      "from": "elon-musk",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nmn",
+      "reason": "same 49:30 stretch"
+    }
+  ]
+}

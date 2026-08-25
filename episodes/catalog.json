@@ -1,0 +1,67 @@
+{
+  "episodes": [
+    {
+      "id": "jre-2537",
+      "show": "Joe Rogan Experience",
+      "title": "JRE #2537 — David Sinclair",
+      "guest": "David Sinclair",
+      "date": "2026-08-07",
+      "graph": "episodes/jre-2537.json",
+      "category": "Lifespan",
+      "defaultOn": true,
+      "youtube": "https://www.youtube.com/watch?v=hxid7FofhMw"
+    },
+    {
+      "id": "jre-1234",
+      "show": "Joe Rogan Experience",
+      "title": "JRE #1234 — David Sinclair",
+      "guest": "David Sinclair",
+      "date": "2019-01-29",
+      "graph": "episodes/jre-1234.json",
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=HOTS0HS7aq4"
+    },
+    {
+      "id": "jre-1349",
+      "show": "Joe Rogan Experience",
+      "title": "JRE #1349 — David Sinclair",
+      "guest": "David Sinclair",
+      "date": "2019-09-10",
+      "graph": "episodes/jre-1349.json",
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=ZGLL77wYxe8"
+    },
+    {
+      "id": "jre-1670",
+      "show": "Joe Rogan Experience",
+      "title": "JRE #1670 — David Sinclair",
+      "guest": "David Sinclair",
+      "date": "2021-06-18",
+      "graph": "episodes/jre-1670.json",
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=2jIJh1EgPFg"
+    },
+    {
+      "id": "jre-2331",
+      "show": "The Joe Rogan Experience",
+      "title": "#2331 — Jesse Michels",
+      "guest": "Jesse Michels",
+      "date": "2025-06-03",
+      "graph": "episodes/jre-2331.json",
+      "category": "UFO",
+      "defaultOn": false,
+      "youtube": "https://www.youtube.com/watch?v=r9Ldl70x5Fg"
+    },
+    {
+      "id": "aa-rogan",
+      "show": "American Alchemy",
+      "title": "Joe Rogan: The Truth About Aliens (He Finally Says It)",
+      "guest": "Joe Rogan",
+      "date": "2025-11-30",
+      "graph": "episodes/aa-rogan.json",
+      "category": "UFO",
+      "defaultOn": false,
+      "youtube": "https://www.youtube.com/watch?v=C_Na1tI5qpw"
+    }
+  ]
+}

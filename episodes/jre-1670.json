@@ -1,0 +1,1021 @@
+{
+  "nodes": [
+    {
+      "id": "jre-1670",
+      "label": "JRE #1670",
+      "type": "podcast",
+      "timestamp": "00:00:00",
+      "url": "https://www.youtube.com/watch?v=2jIJh1EgPFg"
+    },
+    {
+      "id": "topic-methylation-clock",
+      "label": "Methylation clock",
+      "type": "topic",
+      "timestamp": "00:19:17"
+    },
+    {
+      "id": "topic-glaucoma-reprogramming",
+      "label": "Optic-nerve / glaucoma reprogramming",
+      "type": "topic",
+      "timestamp": "01:28:46"
+    },
+    {
+      "id": "topic-doxycycline",
+      "label": "Doxycycline",
+      "type": "topic",
+      "timestamp": "01:33:16"
+    },
+    {
+      "id": "topic-metabolic-winter",
+      "label": "Metabolic Winter Hypothesis",
+      "type": "topic",
+      "timestamp": "02:17:15"
+    },
+    {
+      "id": "topic-sirtuins",
+      "label": "Sirtuins",
+      "type": "topic",
+      "timestamp": "01:08:08"
+    },
+    {
+      "id": "topic-covid-nad",
+      "label": "NAD and COVID",
+      "type": "topic",
+      "timestamp": "01:49:45"
+    },
+    {
+      "id": "topic-phthalates",
+      "label": "Phthalates",
+      "type": "topic",
+      "timestamp": "01:58:36"
+    },
+    {
+      "id": "topic-psychedelics",
+      "label": "Psychedelics / JRT",
+      "type": "topic",
+      "timestamp": "01:27:18"
+    },
+    {
+      "id": "joe-rogan",
+      "label": "Joe Rogan",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "david-sinclair",
+      "label": "David Sinclair",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "lex-friedman",
+      "label": "Lex Friedman",
+      "type": "person",
+      "timestamp": "00:00:19"
+    },
+    {
+      "id": "jamie",
+      "label": "Jamie",
+      "type": "person",
+      "timestamp": "00:03:01"
+    },
+    {
+      "id": "steve-rinella",
+      "label": "Steve Rinella",
+      "type": "person",
+      "timestamp": "00:10:32"
+    },
+    {
+      "id": "steve-horvath",
+      "label": "Steve Horvath",
+      "type": "person",
+      "timestamp": "00:19:17"
+    },
+    {
+      "id": "shin-amai",
+      "label": "Shin Amai",
+      "type": "person",
+      "timestamp": "00:53:12"
+    },
+    {
+      "id": "elon-musk",
+      "label": "Elon Musk",
+      "type": "person",
+      "timestamp": "00:34:28"
+    },
+    {
+      "id": "anthony-robbins",
+      "label": "Anthony Robbins",
+      "type": "person",
+      "timestamp": "00:35:41"
+    },
+    {
+      "id": "gabby-reese",
+      "label": "Gabby Reese",
+      "type": "person",
+      "timestamp": "00:47:59"
+    },
+    {
+      "id": "jocko",
+      "label": "Jocko",
+      "type": "person",
+      "timestamp": "00:56:17"
+    },
+    {
+      "id": "james-nestor",
+      "label": "James Nestor",
+      "type": "person",
+      "timestamp": "01:01:10"
+    },
+    {
+      "id": "laird-hamilton",
+      "label": "Laird Hamilton",
+      "type": "person",
+      "timestamp": "01:02:17"
+    },
+    {
+      "id": "john-joseph",
+      "label": "John Joseph",
+      "type": "person",
+      "timestamp": "01:05:00"
+    },
+    {
+      "id": "tom-cruise",
+      "label": "Tom Cruise",
+      "type": "person",
+      "timestamp": "01:09:08"
+    },
+    {
+      "id": "kelly-mcgillis",
+      "label": "Kelly McGillis",
+      "type": "person",
+      "timestamp": "01:09:08"
+    },
+    {
+      "id": "rhonda-patrick",
+      "label": "Rhonda Patrick",
+      "type": "person",
+      "timestamp": "01:18:05"
+    },
+    {
+      "id": "bridget-phetasy",
+      "label": "Bridget Phetasy",
+      "type": "person",
+      "timestamp": "01:22:59"
+    },
+    {
+      "id": "rick-doblin",
+      "label": "Rick Doblin",
+      "type": "person",
+      "timestamp": "01:28:04"
+    },
+    {
+      "id": "andrew-huberman",
+      "label": "Andrew Huberman",
+      "type": "person",
+      "timestamp": "01:32:06"
+    },
+    {
+      "id": "barry-marshall",
+      "label": "Barry Marshall",
+      "type": "person",
+      "timestamp": "01:34:29"
+    },
+    {
+      "id": "bill-gates",
+      "label": "Bill Gates",
+      "type": "person",
+      "timestamp": "01:57:56"
+    },
+    {
+      "id": "shanna-swan",
+      "label": "Shanna Swan",
+      "type": "person",
+      "timestamp": "01:58:36"
+    },
+    {
+      "id": "ray-cronus",
+      "label": "Ray Cronus",
+      "type": "person",
+      "timestamp": "02:17:15"
+    },
+    {
+      "id": "tim-ferriss",
+      "label": "Tim Ferriss",
+      "type": "person",
+      "timestamp": "02:20:25"
+    },
+    {
+      "id": "matthew-walker",
+      "label": "Matthew Walker",
+      "type": "person",
+      "timestamp": "02:21:22"
+    },
+    {
+      "id": "ethan-suplee",
+      "label": "Ethan Suplee",
+      "type": "person",
+      "timestamp": "02:22:27"
+    },
+    {
+      "id": "penn-jillette",
+      "label": "Penn Jillette",
+      "type": "person",
+      "timestamp": "02:26:01"
+    },
+    {
+      "id": "sinclair-grandmother",
+      "label": "Sinclair's grandmother",
+      "type": "person",
+      "timestamp": "01:23:28"
+    },
+    {
+      "id": "sinclair-father",
+      "label": "Sinclair's father",
+      "type": "person",
+      "timestamp": "02:38:11"
+    },
+    {
+      "id": "rogan-grandmother",
+      "label": "Rogan's grandmother",
+      "type": "person",
+      "timestamp": "02:40:17"
+    },
+    {
+      "id": "doctorsinclair-com",
+      "label": "doctorsinclair.com",
+      "type": "website",
+      "timestamp": "00:20:03"
+    },
+    {
+      "id": "pullupjamie-com",
+      "label": "pullupjamie.com",
+      "type": "website",
+      "timestamp": "00:20:19"
+    },
+    {
+      "id": "sinclairlab-com",
+      "label": "SinclairLab.com",
+      "type": "website",
+      "timestamp": "02:48:06"
+    },
+    {
+      "id": "twitter",
+      "label": "Twitter",
+      "type": "website",
+      "timestamp": "00:05:27"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "type": "website",
+      "timestamp": "01:35:58"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "type": "website",
+      "timestamp": "01:25:06"
+    },
+    {
+      "id": "lex-friedman-podcast",
+      "label": "Lex Friedman podcast",
+      "type": "podcast",
+      "timestamp": "00:00:19"
+    },
+    {
+      "id": "huberman-podcast",
+      "label": "Huberman",
+      "type": "podcast",
+      "timestamp": "01:35:51"
+    },
+    {
+      "id": "dumpster-fire",
+      "label": "Dumpster Fire",
+      "type": "podcast",
+      "timestamp": "01:22:59"
+    },
+    {
+      "id": "ethan-suplee-podcast",
+      "label": "Ethan Suplee podcast",
+      "type": "podcast",
+      "timestamp": "02:22:27"
+    },
+    {
+      "id": "shanna-swan-podcast",
+      "label": "Shanna Swan podcast",
+      "type": "podcast",
+      "timestamp": "01:58:36"
+    },
+    {
+      "id": "sinclair-8-part",
+      "label": "Sinclair's planned 8-part series",
+      "type": "podcast",
+      "timestamp": "01:39:58"
+    },
+    {
+      "id": "media-magnum-pi",
+      "label": "Magnum P.I.",
+      "type": "media",
+      "timestamp": "01:06:40"
+    },
+    {
+      "id": "media-top-gun",
+      "label": "Top Gun",
+      "type": "media",
+      "timestamp": "01:09:08"
+    },
+    {
+      "id": "nature-magazine",
+      "label": "Nature magazine",
+      "type": "media",
+      "timestamp": "01:28:46"
+    },
+    {
+      "id": "paper-israel-hbot",
+      "label": "Israel HBOT study",
+      "type": "paper",
+      "timestamp": "00:16:48"
+    },
+    {
+      "id": "paper-harvard-14yr",
+      "label": "Harvard study last year, five things, +14 years",
+      "type": "paper",
+      "timestamp": "00:37:21"
+    },
+    {
+      "id": "paper-skin-nad",
+      "label": "Skin NAD levels at 50 vs 20",
+      "type": "paper",
+      "timestamp": "00:45:00"
+    },
+    {
+      "id": "paper-washu-nad-circadian",
+      "label": "Wash U NAD circadian work",
+      "type": "paper",
+      "timestamp": "00:53:12"
+    },
+    {
+      "id": "paper-nature-2020-osk",
+      "label": "2020 Nature OSK / optic nerve",
+      "type": "paper",
+      "timestamp": "01:28:46"
+    },
+    {
+      "id": "paper-metabolic-winter",
+      "label": "Metabolic Winter Hypothesis",
+      "type": "paper",
+      "timestamp": "02:17:15"
+    },
+    {
+      "id": "paper-metformin-hypertrophy",
+      "label": "metformin + hypertrophy interference",
+      "type": "paper",
+      "timestamp": "00:22:04"
+    },
+    {
+      "id": "paper-nmn-treadmill",
+      "label": "NMN old-mice treadmill 50% further",
+      "type": "paper",
+      "timestamp": "00:43:28"
+    },
+    {
+      "id": "paper-nad-covid-hospitals",
+      "label": "NAD-boosting drug in COVID, 30 US hospitals",
+      "type": "paper",
+      "timestamp": "01:49:45"
+    },
+    {
+      "id": "book-lifespan",
+      "label": "Lifespan",
+      "type": "book",
+      "timestamp": "00:18:42"
+    },
+    {
+      "id": "book-breath",
+      "label": "Breath",
+      "type": "book",
+      "timestamp": "01:01:10"
+    },
+    {
+      "id": "book-countdown",
+      "label": "Countdown",
+      "type": "book",
+      "timestamp": "01:58:50"
+    },
+    {
+      "id": "book-the-secret",
+      "label": "The Secret",
+      "type": "book",
+      "timestamp": "01:52:08"
+    },
+    {
+      "id": "book-next-how-we-got-here",
+      "label": "Sinclair's next untitled book",
+      "type": "book",
+      "timestamp": "01:15:33"
+    },
+    {
+      "id": "metformin",
+      "label": "Metformin",
+      "type": "product",
+      "timestamp": "00:21:52"
+    },
+    {
+      "id": "dhea",
+      "label": "DHEA",
+      "type": "product",
+      "timestamp": "00:21:52"
+    },
+    {
+      "id": "hgh",
+      "label": "HGH",
+      "type": "product",
+      "timestamp": "00:21:52"
+    },
+    {
+      "id": "nmn",
+      "label": "NMN",
+      "type": "product",
+      "timestamp": "00:25:02"
+    },
+    {
+      "id": "resveratrol",
+      "label": "Resveratrol",
+      "type": "product",
+      "timestamp": "01:08:08"
+    },
+    {
+      "id": "nad",
+      "label": "NAD",
+      "type": "product",
+      "timestamp": "00:24:49"
+    },
+    {
+      "id": "dnp",
+      "label": "DNP",
+      "type": "product",
+      "timestamp": "00:31:04"
+    },
+    {
+      "id": "ambien",
+      "label": "Ambien",
+      "type": "product",
+      "timestamp": "00:57:33"
+    },
+    {
+      "id": "melatonin",
+      "label": "Melatonin",
+      "type": "product",
+      "timestamp": "00:56:55"
+    },
+    {
+      "id": "crispr",
+      "label": "CRISPR",
+      "type": "product",
+      "timestamp": "01:50:31"
+    },
+    {
+      "id": "botox",
+      "label": "Botox",
+      "type": "product",
+      "timestamp": "02:08:01"
+    },
+    {
+      "id": "mdma",
+      "label": "MDMA",
+      "type": "product",
+      "timestamp": "01:27:56"
+    },
+    {
+      "id": "psilocybin",
+      "label": "psilocybin",
+      "type": "product",
+      "timestamp": "01:27:41"
+    },
+    {
+      "id": "atai",
+      "label": "Atai",
+      "type": "product",
+      "timestamp": "01:27:18"
+    },
+    {
+      "id": "maps",
+      "label": "MAPS",
+      "type": "product",
+      "timestamp": "01:28:04"
+    },
+    {
+      "id": "eight-sleep",
+      "label": "Eight Sleep",
+      "type": "product",
+      "timestamp": "02:19:24"
+    },
+    {
+      "id": "fum",
+      "label": "FUM",
+      "type": "product",
+      "timestamp": "01:24:47"
+    },
+    {
+      "id": "hyperbaric",
+      "label": "Hyperbaric chamber",
+      "type": "product",
+      "timestamp": "00:13:22"
+    },
+    {
+      "id": "cheek-swab",
+      "label": "cheek-swab age test",
+      "type": "product",
+      "timestamp": "00:15:15"
+    },
+    {
+      "id": "dogecoin",
+      "label": "Dogecoin",
+      "type": "product",
+      "timestamp": "02:46:12"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jre-1670",
+      "to": "david-sinclair",
+      "reason": "guest"
+    },
+    {
+      "from": "jre-1670",
+      "to": "joe-rogan",
+      "reason": "host"
+    },
+    {
+      "from": "jre-1670",
+      "to": "jamie",
+      "reason": "producer"
+    },
+    {
+      "from": "lex-friedman",
+      "to": "lex-friedman-podcast",
+      "reason": "Rogan enjoyed Sinclair on Lex"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "lex-friedman",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "steve-horvath",
+      "to": "topic-methylation-clock",
+      "reason": "epigenetic age test; more accurate than telomeres"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "steve-horvath",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "cheek-swab",
+      "to": "topic-methylation-clock",
+      "reason": "cheap epigenetic clock"
+    },
+    {
+      "from": "doctorsinclair-com",
+      "to": "cheek-swab",
+      "reason": "age-test waitlist"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "doctorsinclair-com",
+      "reason": "spells D-O-C-T-O-R Sinclair dot com"
+    },
+    {
+      "from": "jamie",
+      "to": "pullupjamie-com",
+      "reason": "joke comparison to the waitlist site"
+    },
+    {
+      "from": "paper-israel-hbot",
+      "to": "hyperbaric",
+      "reason": "60 sessions / 90 days; telomeres"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "hyperbaric",
+      "reason": "40 x 90 min; aiming at 60"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-israel-hbot",
+      "reason": "visited pre-COVID"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "metformin",
+      "reason": "skips around workouts"
+    },
+    {
+      "from": "paper-metformin-hypertrophy",
+      "to": "metformin",
+      "reason": "mito / hypertrophy interference"
+    },
+    {
+      "from": "metformin",
+      "to": "dhea",
+      "reason": "reversal cocktail discussion"
+    },
+    {
+      "from": "dhea",
+      "to": "hgh",
+      "reason": "same cocktail"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "nmn",
+      "reason": "raises NAD; jet lag"
+    },
+    {
+      "from": "paper-nmn-treadmill",
+      "to": "nmn",
+      "reason": "old mice 50% further in three weeks"
+    },
+    {
+      "from": "nmn",
+      "to": "nad",
+      "reason": "NAD precursor"
+    },
+    {
+      "from": "gabby-reese",
+      "to": "nad",
+      "reason": "NAD-shot skepticism"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "gabby-reese",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "shin-amai",
+      "to": "paper-washu-nad-circadian",
+      "reason": "Wash U NAD cycles / jet lag"
+    },
+    {
+      "from": "paper-washu-nad-circadian",
+      "to": "nad",
+      "reason": "same work"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "shin-amai",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "paper-skin-nad",
+      "to": "nad",
+      "reason": "skin NAD at 50 vs 20"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-skin-nad",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "nmn",
+      "reason": "father's stack"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "metformin",
+      "reason": "father's stack"
+    },
+    {
+      "from": "sinclair-father",
+      "to": "resveratrol",
+      "reason": "father's third thing"
+    },
+    {
+      "from": "resveratrol",
+      "to": "topic-sirtuins",
+      "reason": "same stack thread"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-father",
+      "reason": "fled with grandmother"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "book-lifespan",
+      "reason": "author; COVID predicted a few months before"
+    },
+    {
+      "from": "tom-cruise",
+      "to": "book-lifespan",
+      "reason": "Sinclair used Tom in the book"
+    },
+    {
+      "from": "tom-cruise",
+      "to": "media-top-gun",
+      "reason": "aging vs Kelly McGillis"
+    },
+    {
+      "from": "kelly-mcgillis",
+      "to": "media-top-gun",
+      "reason": "same comparison"
+    },
+    {
+      "from": "paper-nature-2020-osk",
+      "to": "nature-magazine",
+      "reason": "December paper; reprogram mouse eye"
+    },
+    {
+      "from": "paper-nature-2020-osk",
+      "to": "topic-glaucoma-reprogramming",
+      "reason": "doxycycline switch; FDA in a couple of years"
+    },
+    {
+      "from": "topic-glaucoma-reprogramming",
+      "to": "topic-doxycycline",
+      "reason": "on/off switch"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-nature-2020-osk",
+      "reason": "since they last spoke"
+    },
+    {
+      "from": "andrew-huberman",
+      "to": "huberman-podcast",
+      "reason": "Stanford collaborator; public teaching"
+    },
+    {
+      "from": "andrew-huberman",
+      "to": "instagram",
+      "reason": "Huberman videos"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "andrew-huberman",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "barry-marshall",
+      "to": "david-sinclair",
+      "reason": "ulcers; Nobel"
+    },
+    {
+      "from": "atai",
+      "to": "topic-psychedelics",
+      "reason": "turning psychedelics into drugs"
+    },
+    {
+      "from": "mdma",
+      "to": "topic-psychedelics",
+      "reason": "PTSD"
+    },
+    {
+      "from": "psilocybin",
+      "to": "topic-psychedelics",
+      "reason": "CTE / neurogenesis"
+    },
+    {
+      "from": "rick-doblin",
+      "to": "maps",
+      "reason": "MAPS; Schedule I"
+    },
+    {
+      "from": "maps",
+      "to": "topic-psychedelics",
+      "reason": "same stretch"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "crispr",
+      "reason": "hypothetical COVID tech"
+    },
+    {
+      "from": "paper-nad-covid-hospitals",
+      "to": "topic-covid-nad",
+      "reason": "ongoing at taping"
+    },
+    {
+      "from": "nad",
+      "to": "topic-covid-nad",
+      "reason": "same trial space"
+    },
+    {
+      "from": "shanna-swan",
+      "to": "book-countdown",
+      "reason": "author; title read on-air"
+    },
+    {
+      "from": "shanna-swan",
+      "to": "shanna-swan-podcast",
+      "reason": "prior JRE"
+    },
+    {
+      "from": "book-countdown",
+      "to": "topic-phthalates",
+      "reason": "phthalates / sperm counts"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "shanna-swan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "bridget-phetasy",
+      "to": "dumpster-fire",
+      "reason": "she had Rogan on"
+    },
+    {
+      "from": "james-nestor",
+      "to": "book-breath",
+      "reason": "author"
+    },
+    {
+      "from": "laird-hamilton",
+      "to": "hyperbaric",
+      "reason": "sauna airdyne; chilly jacket"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "laird-hamilton",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "ambien",
+      "reason": "nibbles ~a tenth"
+    },
+    {
+      "from": "jocko",
+      "to": "ambien",
+      "reason": "sleep/discipline aside"
+    },
+    {
+      "from": "matthew-walker",
+      "to": "ambien",
+      "reason": "sleep"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "melatonin",
+      "reason": "sleep stack"
+    },
+    {
+      "from": "ray-cronus",
+      "to": "paper-metabolic-winter",
+      "reason": "co-published; hungry + cold"
+    },
+    {
+      "from": "paper-metabolic-winter",
+      "to": "topic-metabolic-winter",
+      "reason": "same hypothesis"
+    },
+    {
+      "from": "penn-jillette",
+      "to": "ray-cronus",
+      "reason": "lost weight with Ray"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "ray-cronus",
+      "reason": "Sinclair cites"
+    },
+    {
+      "from": "ethan-suplee",
+      "to": "ethan-suplee-podcast",
+      "reason": "weight-loss"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "eight-sleep",
+      "reason": "cooling mattress cover"
+    },
+    {
+      "from": "tim-ferriss",
+      "to": "eight-sleep",
+      "reason": "chilly-mattress dudes"
+    },
+    {
+      "from": "jamie",
+      "to": "fum",
+      "reason": "pull the YouTube"
+    },
+    {
+      "from": "fum",
+      "to": "youtube",
+      "reason": "F-U-M video"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-8-part",
+      "reason": "themes from the book; what he takes"
+    },
+    {
+      "from": "sinclair-8-part",
+      "to": "book-lifespan",
+      "reason": "same book"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclairlab-com",
+      "reason": "donate to research; closing CTA"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "twitter",
+      "reason": "closing handle"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "instagram",
+      "reason": "closing"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "sinclair-grandmother",
+      "reason": "Vera; Hungary WWII; Australia"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "rogan-grandmother",
+      "reason": "stroke when he was young"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "dogecoin",
+      "reason": "invested; won't say more"
+    },
+    {
+      "from": "elon-musk",
+      "to": "david-sinclair",
+      "reason": "FU gene; I'm like Elon in biology"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "paper-harvard-14yr",
+      "reason": "doctors' lifestyle list"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "dnp",
+      "reason": "weight-loss uncoupler"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "botox",
+      "reason": "people can Botox anywhere"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "book-next-how-we-got-here",
+      "reason": "how we got here; limbic treadmill"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "book-the-secret",
+      "reason": "manifestation analogy"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "steve-rinella",
+      "reason": "Guyana; forest tribe feet"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "john-joseph",
+      "reason": "Cro-Mags; Ironmans"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "anthony-robbins",
+      "reason": "quote"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "bill-gates",
+      "reason": "climate/YouTube"
+    },
+    {
+      "from": "bill-gates",
+      "to": "youtube",
+      "reason": "same stretch"
+    },
+    {
+      "from": "david-sinclair",
+      "to": "rhonda-patrick",
+      "reason": "nutrition / GI"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "media-magnum-pi",
+      "reason": "treading water 24 hours"
+    },
+    {
+      "from": "andrew-huberman",
+      "to": "youtube",
+      "reason": "Huberman YouTube"
+    }
+  ]
+}

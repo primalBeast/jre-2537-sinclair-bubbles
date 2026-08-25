@@ -10,7 +10,7 @@
   --line-2: rgba(255, 243, 220, 0.14);
   --text: #f3eee4;
   --muted: #9a9286;
-  --faint: #6a645c;
+  --faint: #8f877c;
   --accent: #e8b84a;
   --accent-2: #f0d28a;
   --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
@@ -18,14 +18,14 @@
   --display: Syne, "Segoe UI", system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --c-topic: #8fb7c9;
+  --c-topic: #5aa7e6;
   --c-person: #e8b84a;
-  --c-website: #6db8a8;
-  --c-paper: #a690c4;
-  --c-book: #d07a68;
-  --c-product: #7fbf9a;
-  --c-podcast: #d4925a;
-  --c-media: #c4849c;
+  --c-website: #3ecfbe;
+  --c-paper: #b794f6;
+  --c-book: #f09090;
+  --c-product: #6dd392;
+  --c-podcast: #f0a05a;
+  --c-media: #e879c0;
   --safe-t: env(safe-area-inset-top);
   --safe-b: env(safe-area-inset-bottom);
   --safe-l: env(safe-area-inset-left);
@@ -83,6 +83,9 @@ button, input { font-family: inherit; }
 header {
   display: grid;
   grid-template-columns: minmax(240px, 1.2fr) minmax(220px, 0.8fr) auto;
+  grid-template-areas:
+    "brand controls legend"
+    "picker picker picker";
   gap: 16px 24px;
   align-items: center;
   padding: calc(14px + var(--safe-t)) calc(22px + var(--safe-r)) 14px calc(22px + var(--safe-l));
@@ -94,7 +97,67 @@ header {
   z-index: 5;
 }
 
-.brand { min-width: 0; }
+.brand { grid-area: brand; min-width: 0; }
+.controls { grid-area: controls; }
+.legend { grid-area: legend; }
+
+.episode-picker {
+  grid-area: picker;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+.ep-chip {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid rgba(232, 184, 74, 0.35);
+  border-radius: 999px;
+  background: rgba(12, 10, 14, 0.72);
+  backdrop-filter: blur(16px) saturate(1.3);
+  -webkit-backdrop-filter: blur(16px) saturate(1.3);
+  color: var(--muted);
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  max-width: 100%;
+  flex: 0 0 auto;
+}
+.ep-num { font-family: var(--display); font-weight: 700; font-size: 15px; color: var(--accent); }
+.ep-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 14ch; }
+
+.ep-chip.on {
+  background: rgba(232, 184, 74, 0.16);
+  border-color: var(--accent);
+  color: var(--text);
+  box-shadow: inset 0 1px 0 rgba(255, 243, 220, 0.08);
+}
+
+.ep-chip.off {
+  opacity: 0.5;
+  filter: grayscale(0.25);
+}
+
+.ep-chip:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.ep-chip .demo-tag {
+  color: var(--faint);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
 
 .eyebrow {
   margin: 0 0 4px;
@@ -211,6 +274,19 @@ h1 {
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--swatch) 22%, transparent);
 }
 
+.legend .swatch {
+  width: auto;
+  min-width: 0.9em;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--swatch);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+}
+
 .count { color: var(--faint); font-variant-numeric: tabular-nums; }
 
 main {
@@ -231,7 +307,8 @@ main {
     var(--bg);
 }
 
-#graph { width: 100%; height: 100%; opacity: 0; transition: opacity 0.7s var(--ease); }
+#graph { width: 100%; height: 100%; opacity: 0; transition: opacity 0.7s var(--ease); touch-action: none; }
+#graph canvas { touch-action: none; }
 #graph.is-ready { opacity: 1; }
 
 .tap-hint {
@@ -471,8 +548,21 @@ aside {
     padding: calc(8px + var(--safe-t)) 16px 10px;
   }
   h1 { font-size: 17px; letter-spacing: -0.035em; }
-  .subtitle, .meta-row { display: none; }
+  .subtitle, .subtitle.is-multi, .meta-row { display: none; }
   header { max-width: 100%; min-width: 0; overflow: hidden; }
+  .episode-picker {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .episode-picker::-webkit-scrollbar { display: none; }
+  .ep-chip {
+    min-height: 44px;
+    font-size: 16px;
+  }
   .legend {
     justify-content: flex-start;
     width: 100%;

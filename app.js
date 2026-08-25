@@ -815,11 +815,52 @@
         const unfix = raw.nodes.filter((n) => !isHubNode(n)).map((n) => ({ id: n.id, fixed: false }));
         if (unfix.length) nodesDS.update(unfix);
       }
+      if (selectedIds.length > 1) {
+        recenterClustersOnHubs();
+        network.setOptions({ physics: { enabled: false } });
+      }
       el.loading.hidden = true;
       el.graph.classList.add("is-ready");
       network.fit({ animation: { duration: 650, easingFunction: "easeInOutQuad" } });
     });
   }
+
+  function recenterClustersOnHubs() {
+    if (!network || !nodesDS || !raw) return;
+    const pos = network.getPositions();
+    const byEp = Object.create(null);
+    raw.nodes.forEach((n) => {
+      const ep = n.episodeId || "";
+      if (!byEp[ep]) byEp[ep] = { hub: null, others: [] };
+      if (isHubNode(n)) byEp[ep].hub = n;
+      else byEp[ep].others.push(n);
+    });
+    const updates = [];
+    Object.keys(byEp).forEach((ep) => {
+      const g = byEp[ep];
+      if (!g.hub) return;
+      const hp = pos[g.hub.id];
+      if (!hp) return;
+      let sx = 0, sy = 0, c = 0;
+      g.others.forEach((n) => {
+        const p = pos[n.id];
+        if (!p) return;
+        sx += p.x;
+        sy += p.y;
+        c += 1;
+      });
+      if (!c) return;
+      const dx = hp.x - sx / c;
+      const dy = hp.y - sy / c;
+      g.others.forEach((n) => {
+        const p = pos[n.id];
+        if (!p) return;
+        updates.push({ id: n.id, x: p.x + dx, y: p.y + dy });
+      });
+    });
+    if (updates.length) nodesDS.update(updates);
+  }
+
   function destroyNetwork() {
     hideTooltip();
     selectedId = null;

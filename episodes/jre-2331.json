@@ -1,0 +1,888 @@
+{
+  "nodes": [
+    {
+      "id": "jre-2331",
+      "label": "JRE #2331",
+      "type": "podcast",
+      "timestamp": "00:00:00",
+      "url": "https://www.youtube.com/watch?v=r9Ldl70x5Fg"
+    },
+    {
+      "id": "topic-uap",
+      "label": "UAP",
+      "type": "topic",
+      "timestamp": "01:34:15"
+    },
+    {
+      "id": "topic-silurian",
+      "label": "Silurian Hypothesis",
+      "type": "topic",
+      "timestamp": "02:35:47"
+    },
+    {
+      "id": "topic-younger-dryas",
+      "label": "Younger Dryas",
+      "type": "topic",
+      "timestamp": "02:35:47"
+    },
+    {
+      "id": "topic-element-115",
+      "label": "element 115 / Muscovium",
+      "type": "topic",
+      "timestamp": "00:58:10"
+    },
+    {
+      "id": "topic-biefeld-brown",
+      "label": "Biefeld-Brown",
+      "type": "topic",
+      "timestamp": "01:21:08"
+    },
+    {
+      "id": "topic-casimir",
+      "label": "Casimir",
+      "type": "topic",
+      "timestamp": "01:21:08"
+    },
+    {
+      "id": "topic-skywatcher",
+      "label": "Skywatcher 7.83 Hz",
+      "type": "topic"
+    },
+    {
+      "id": "joe-rogan",
+      "label": "Joe Rogan",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "jesse-michels",
+      "label": "Jesse Michels",
+      "type": "person",
+      "timestamp": "00:00:00"
+    },
+    {
+      "id": "michael-heiser",
+      "label": "Michael Heiser",
+      "type": "person",
+      "timestamp": "00:02:42"
+    },
+    {
+      "id": "piers-morgan",
+      "label": "Piers Morgan",
+      "type": "person",
+      "timestamp": "00:04:32"
+    },
+    {
+      "id": "eric-weinstein",
+      "label": "Eric Weinstein",
+      "type": "person",
+      "timestamp": "00:04:57"
+    },
+    {
+      "id": "marc-andreessen",
+      "label": "Marc Andreessen",
+      "type": "person",
+      "timestamp": "00:26:43"
+    },
+    {
+      "id": "hal-puthoff",
+      "label": "Hal Puthoff",
+      "type": "person",
+      "timestamp": "00:36:09"
+    },
+    {
+      "id": "randall-carlson",
+      "label": "Randall Carlson",
+      "type": "person",
+      "timestamp": "00:39:48"
+    },
+    {
+      "id": "aj-yfiles",
+      "label": "AJ",
+      "type": "person",
+      "timestamp": "00:40:53"
+    },
+    {
+      "id": "townsend-brown",
+      "label": "Townsend Brown",
+      "type": "person",
+      "timestamp": "00:46:53"
+    },
+    {
+      "id": "john-lear",
+      "label": "John Lear",
+      "type": "person",
+      "timestamp": "00:46:53"
+    },
+    {
+      "id": "g-gordon-liddy",
+      "label": "G. Gordon Liddy",
+      "type": "person",
+      "timestamp": "00:54:06"
+    },
+    {
+      "id": "jeremy-corbell",
+      "label": "Jeremy Corbell",
+      "type": "person",
+      "timestamp": "00:58:10"
+    },
+    {
+      "id": "lazar",
+      "label": "Lazar",
+      "type": "person",
+      "timestamp": "00:58:10"
+    },
+    {
+      "id": "dan-farah",
+      "label": "Dan Farah",
+      "type": "person",
+      "timestamp": "01:42:14"
+    },
+    {
+      "id": "chris-ramsey",
+      "label": "Chris Ramsey",
+      "type": "person",
+      "timestamp": "02:10:33"
+    },
+    {
+      "id": "rick-strassman",
+      "label": "Rick Strassman",
+      "type": "person",
+      "timestamp": "02:12:38"
+    },
+    {
+      "id": "harry-turner",
+      "label": "Harry Turner",
+      "type": "person",
+      "timestamp": "01:04:26"
+    },
+    {
+      "id": "michael-gladich",
+      "label": "Michael Gladich",
+      "type": "person",
+      "timestamp": "01:06:07"
+    },
+    {
+      "id": "robert-hastings",
+      "label": "Robert Hastings",
+      "type": "person",
+      "timestamp": "01:35:26"
+    },
+    {
+      "id": "samuel-arbesman",
+      "label": "Samuel Arbesman",
+      "type": "person",
+      "timestamp": "02:07:20"
+    },
+    {
+      "id": "pasulka",
+      "label": "Pasulka",
+      "type": "person",
+      "timestamp": "02:08:04"
+    },
+    {
+      "id": "huxley",
+      "label": "Huxley",
+      "type": "person",
+      "timestamp": "02:12:50"
+    },
+    {
+      "id": "von-daniken",
+      "label": "von Daniken",
+      "type": "person",
+      "timestamp": "00:02:12"
+    },
+    {
+      "id": "marx",
+      "label": "Marx",
+      "type": "person",
+      "timestamp": "00:24:46"
+    },
+    {
+      "id": "bill-cooper",
+      "label": "Bill Cooper",
+      "type": "person",
+      "timestamp": "00:47:33"
+    },
+    {
+      "id": "mike-masters",
+      "label": "Mike Masters",
+      "type": "person",
+      "timestamp": "00:30:16"
+    },
+    {
+      "id": "brandenburg",
+      "label": "Brandenburg",
+      "type": "person"
+    },
+    {
+      "id": "mcmoneagle",
+      "label": "McMoneagle",
+      "type": "person"
+    },
+    {
+      "id": "alvarez",
+      "label": "Alvarez",
+      "type": "person"
+    },
+    {
+      "id": "jesse-youtube",
+      "label": "youtube.com/@JesseMichels",
+      "type": "website",
+      "url": "https://www.youtube.com/@JesseMichels"
+    },
+    {
+      "id": "sitchin-is-wrong",
+      "label": "Sitchin is wrong",
+      "type": "website",
+      "timestamp": "00:02:42"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "type": "website",
+      "timestamp": "00:07:40"
+    },
+    {
+      "id": "google-maps",
+      "label": "Google Maps",
+      "type": "website",
+      "timestamp": "00:18:10"
+    },
+    {
+      "id": "nyt",
+      "label": "New York Times",
+      "type": "website",
+      "timestamp": "01:34:15"
+    },
+    {
+      "id": "american-alchemy",
+      "label": "American Alchemy",
+      "type": "podcast",
+      "timestamp": "00:46:53"
+    },
+    {
+      "id": "jre-andreessen",
+      "label": "prior JRE Marc Andreessen",
+      "type": "podcast",
+      "timestamp": "00:26:43"
+    },
+    {
+      "id": "jre-puthoff",
+      "label": "prior JRE Hal Puthoff",
+      "type": "podcast",
+      "timestamp": "00:36:09"
+    },
+    {
+      "id": "jre-carlson",
+      "label": "prior JRE Randall Carlson",
+      "type": "podcast",
+      "timestamp": "00:39:48"
+    },
+    {
+      "id": "jre-strassman",
+      "label": "prior JRE Rick Strassman",
+      "type": "podcast",
+      "timestamp": "02:12:38"
+    },
+    {
+      "id": "y-files",
+      "label": "Y Files",
+      "type": "podcast",
+      "timestamp": "00:40:53"
+    },
+    {
+      "id": "chris-ramsey-podcast",
+      "label": "Chris Ramsey podcast",
+      "type": "podcast",
+      "timestamp": "02:10:33"
+    },
+    {
+      "id": "piers-morgan-show",
+      "label": "Piers Morgan",
+      "type": "podcast",
+      "timestamp": "00:04:32"
+    },
+    {
+      "id": "media-walle",
+      "label": "WALL-E",
+      "type": "media",
+      "timestamp": "00:29:33"
+    },
+    {
+      "id": "media-oppenheimer",
+      "label": "Oppenheimer",
+      "type": "media",
+      "timestamp": "00:52:15"
+    },
+    {
+      "id": "media-fear-factor",
+      "label": "Fear Factor",
+      "type": "media",
+      "timestamp": "00:54:06"
+    },
+    {
+      "id": "media-corbell-lazar",
+      "label": "Jeremy Corbell Lazar documentary",
+      "type": "media",
+      "timestamp": "00:58:10"
+    },
+    {
+      "id": "media-age-of-disclosure",
+      "label": "Age of Disclosure",
+      "type": "media",
+      "timestamp": "01:42:14"
+    },
+    {
+      "id": "paper-weinstein",
+      "label": "Eric Weinstein paper",
+      "type": "paper",
+      "timestamp": "00:04:57"
+    },
+    {
+      "id": "paper-1971-ajo",
+      "label": "1971 Australian Joint Intelligence Organization",
+      "type": "paper",
+      "timestamp": "01:04:26"
+    },
+    {
+      "id": "paper-robertson",
+      "label": "Robertson panel/memo",
+      "type": "paper",
+      "timestamp": "01:05:32"
+    },
+    {
+      "id": "paper-1956-gladich",
+      "label": "1956 Young Men's Magazine",
+      "type": "paper",
+      "timestamp": "01:06:07"
+    },
+    {
+      "id": "paper-townsend-1954",
+      "label": "Townsend Brown Winter Haven 1954",
+      "type": "paper",
+      "timestamp": "01:21:08"
+    },
+    {
+      "id": "paper-wright-battelle",
+      "label": "1949 Wright-Battelle contract",
+      "type": "paper",
+      "timestamp": "01:25:26"
+    },
+    {
+      "id": "paper-uap-act",
+      "label": "UAP Disclosure Act",
+      "type": "paper",
+      "timestamp": "01:43:04"
+    },
+    {
+      "id": "paper-northrop",
+      "label": "Northrop electroaerodynamics",
+      "type": "paper",
+      "timestamp": "01:49:40"
+    },
+    {
+      "id": "paper-structure-of-space",
+      "label": "Townsend Brown Structure of Space",
+      "type": "paper",
+      "timestamp": "01:57:17"
+    },
+    {
+      "id": "paper-garnett",
+      "label": "Project Garnett / Galileo / Looking Glass",
+      "type": "paper",
+      "timestamp": "02:01:16"
+    },
+    {
+      "id": "paper-silurian",
+      "label": "Hal Puthoff Silurian Hypothesis paper",
+      "type": "paper",
+      "timestamp": "02:35:47"
+    },
+    {
+      "id": "book-chariots",
+      "label": "Chariots of the Gods?",
+      "type": "book",
+      "timestamp": "00:02:12"
+    },
+    {
+      "id": "book-communist-manifesto",
+      "label": "Communist Manifesto",
+      "type": "book",
+      "timestamp": "00:24:46"
+    },
+    {
+      "id": "book-marx-manuscripts",
+      "label": "Economic and Philosophic Manuscripts",
+      "type": "book",
+      "timestamp": "00:24:50"
+    },
+    {
+      "id": "book-pale-horse",
+      "label": "Behold a Pale Horse",
+      "type": "book",
+      "timestamp": "00:47:33"
+    },
+    {
+      "id": "book-ufos-nukes",
+      "label": "UFOs and Nukes",
+      "type": "book",
+      "timestamp": "01:35:26"
+    },
+    {
+      "id": "book-half-life",
+      "label": "The Half-Life of Facts",
+      "type": "book",
+      "timestamp": "02:07:20"
+    },
+    {
+      "id": "book-magonia",
+      "label": "Passport to Magonia",
+      "type": "book",
+      "timestamp": "02:08:04"
+    },
+    {
+      "id": "book-american-cosmic",
+      "label": "American Cosmic",
+      "type": "book",
+      "timestamp": "02:08:04"
+    },
+    {
+      "id": "book-doors",
+      "label": "The Doors of Perception",
+      "type": "book",
+      "timestamp": "02:12:50"
+    },
+    {
+      "id": "google-veo-3",
+      "label": "Google Veo 3",
+      "type": "product",
+      "timestamp": "00:09:34"
+    },
+    {
+      "id": "replica-ai",
+      "label": "Replica.ai",
+      "type": "product",
+      "timestamp": "00:09:34"
+    },
+    {
+      "id": "openai-stargate",
+      "label": "OpenAI / Stargate",
+      "type": "product"
+    },
+    {
+      "id": "claude-4-opus",
+      "label": "Claude 4 Opus",
+      "type": "product"
+    },
+    {
+      "id": "chatgpt",
+      "label": "ChatGPT",
+      "type": "product"
+    },
+    {
+      "id": "bitcoin",
+      "label": "Bitcoin/SHA-256",
+      "type": "product"
+    },
+    {
+      "id": "f117-b2-aurora",
+      "label": "F-117, B-2, Aurora",
+      "type": "product"
+    },
+    {
+      "id": "exodus-space",
+      "label": "Exodus Space",
+      "type": "product"
+    },
+    {
+      "id": "nitinol",
+      "label": "Nitinol",
+      "type": "product",
+      "timestamp": "01:25:26"
+    },
+    {
+      "id": "tr3",
+      "label": "TR-3A/TR-3B",
+      "type": "product"
+    },
+    {
+      "id": "lazar-sport-model",
+      "label": "Lazar sport model",
+      "type": "product",
+      "timestamp": "00:58:10"
+    },
+    {
+      "id": "cortical-labs",
+      "label": "Cortical Labs",
+      "type": "product"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jre-2331",
+      "to": "jesse-michels",
+      "reason": "guest"
+    },
+    {
+      "from": "jre-2331",
+      "to": "joe-rogan",
+      "reason": "host"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "american-alchemy",
+      "reason": "his show; also 02:43:09"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "jesse-youtube",
+      "reason": "show-notes YouTube"
+    },
+    {
+      "from": "michael-heiser",
+      "to": "sitchin-is-wrong",
+      "reason": "site; URL not spoken"
+    },
+    {
+      "from": "von-daniken",
+      "to": "book-chariots",
+      "reason": "author"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "book-chariots",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "piers-morgan",
+      "to": "piers-morgan-show",
+      "reason": "Carroll vs Weinstein"
+    },
+    {
+      "from": "eric-weinstein",
+      "to": "paper-weinstein",
+      "reason": "author"
+    },
+    {
+      "from": "eric-weinstein",
+      "to": "piers-morgan-show",
+      "reason": "same debate stretch"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "instagram",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "replica-ai",
+      "to": "google-veo-3",
+      "reason": "same AI stretch"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "google-maps",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "marc-andreessen",
+      "to": "jre-andreessen",
+      "reason": "prior JRE guest"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "media-walle",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "mike-masters",
+      "to": "jesse-michels",
+      "reason": "wrote a whole book; title not spoken"
+    },
+    {
+      "from": "hal-puthoff",
+      "to": "jre-puthoff",
+      "reason": "prior JRE guest"
+    },
+    {
+      "from": "hal-puthoff",
+      "to": "paper-silurian",
+      "reason": "Silurian Hypothesis paper"
+    },
+    {
+      "from": "paper-silurian",
+      "to": "topic-silurian",
+      "reason": "same paper"
+    },
+    {
+      "from": "topic-silurian",
+      "to": "topic-younger-dryas",
+      "reason": "same stretch with Alvarez 66 Ma"
+    },
+    {
+      "from": "alvarez",
+      "to": "topic-younger-dryas",
+      "reason": "66 Ma"
+    },
+    {
+      "from": "randall-carlson",
+      "to": "jre-carlson",
+      "reason": "prior JRE guest"
+    },
+    {
+      "from": "aj-yfiles",
+      "to": "y-files",
+      "reason": "AJ / Y Files"
+    },
+    {
+      "from": "townsend-brown",
+      "to": "american-alchemy",
+      "reason": "Jesse's Townsend Brown / John Lear video"
+    },
+    {
+      "from": "john-lear",
+      "to": "townsend-brown",
+      "reason": "same video"
+    },
+    {
+      "from": "townsend-brown",
+      "to": "paper-townsend-1954",
+      "reason": "Winter Haven 1954"
+    },
+    {
+      "from": "townsend-brown",
+      "to": "paper-structure-of-space",
+      "reason": "Structure of Space"
+    },
+    {
+      "from": "townsend-brown",
+      "to": "topic-biefeld-brown",
+      "reason": "Biefeld-Brown vacuum"
+    },
+    {
+      "from": "topic-biefeld-brown",
+      "to": "topic-casimir",
+      "reason": "same physics stretch"
+    },
+    {
+      "from": "marx",
+      "to": "book-communist-manifesto",
+      "reason": "author"
+    },
+    {
+      "from": "marx",
+      "to": "book-marx-manuscripts",
+      "reason": "author"
+    },
+    {
+      "from": "bill-cooper",
+      "to": "book-pale-horse",
+      "reason": "author"
+    },
+    {
+      "from": "g-gordon-liddy",
+      "to": "media-fear-factor",
+      "reason": "Fear Factor"
+    },
+    {
+      "from": "jeremy-corbell",
+      "to": "media-corbell-lazar",
+      "reason": "Lazar documentary"
+    },
+    {
+      "from": "lazar",
+      "to": "media-corbell-lazar",
+      "reason": "same film"
+    },
+    {
+      "from": "lazar",
+      "to": "lazar-sport-model",
+      "reason": "sport model"
+    },
+    {
+      "from": "lazar",
+      "to": "topic-element-115",
+      "reason": "element 115 / Muscovium"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "media-oppenheimer",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "harry-turner",
+      "to": "paper-1971-ajo",
+      "reason": "1971 Australian Joint Intelligence Organization"
+    },
+    {
+      "from": "michael-gladich",
+      "to": "paper-1956-gladich",
+      "reason": "1956 Young Men's Magazine"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "paper-robertson",
+      "reason": "Robertson panel/memo"
+    },
+    {
+      "from": "paper-wright-battelle",
+      "to": "nitinol",
+      "reason": "Battelle/Nitinol 1949"
+    },
+    {
+      "from": "nyt",
+      "to": "topic-uap",
+      "reason": "2017 UAP"
+    },
+    {
+      "from": "robert-hastings",
+      "to": "book-ufos-nukes",
+      "reason": "author"
+    },
+    {
+      "from": "book-ufos-nukes",
+      "to": "topic-uap",
+      "reason": "same thread"
+    },
+    {
+      "from": "dan-farah",
+      "to": "media-age-of-disclosure",
+      "reason": "Age of Disclosure"
+    },
+    {
+      "from": "paper-uap-act",
+      "to": "topic-uap",
+      "reason": "UAP Disclosure Act"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "paper-northrop",
+      "reason": "electroaerodynamics; title not spoken"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "paper-garnett",
+      "reason": "Project Garnett / Galileo / Looking Glass as spoken"
+    },
+    {
+      "from": "samuel-arbesman",
+      "to": "book-half-life",
+      "reason": "author"
+    },
+    {
+      "from": "pasulka",
+      "to": "book-american-cosmic",
+      "reason": "author"
+    },
+    {
+      "from": "book-magonia",
+      "to": "book-american-cosmic",
+      "reason": "same stretch; Vall\u00e9e not named as a person"
+    },
+    {
+      "from": "huxley",
+      "to": "book-doors",
+      "reason": "author"
+    },
+    {
+      "from": "rick-strassman",
+      "to": "jre-strassman",
+      "reason": "prior JRE guest"
+    },
+    {
+      "from": "rick-strassman",
+      "to": "book-doors",
+      "reason": "same psychedelic stretch"
+    },
+    {
+      "from": "chris-ramsey",
+      "to": "chris-ramsey-podcast",
+      "reason": "his podcast"
+    },
+    {
+      "from": "replica-ai",
+      "to": "chatgpt",
+      "reason": "same AI stretch"
+    },
+    {
+      "from": "chatgpt",
+      "to": "claude-4-opus",
+      "reason": "AIs to Sanskrit / Claude self-chat"
+    },
+    {
+      "from": "openai-stargate",
+      "to": "chatgpt",
+      "reason": "OpenAI / Stargate US AI"
+    },
+    {
+      "from": "lazar-sport-model",
+      "to": "tr3",
+      "reason": "same craft stretch"
+    },
+    {
+      "from": "tr3",
+      "to": "f117-b2-aurora",
+      "reason": "same black-project stretch"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "exodus-space",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "cortical-labs",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "jesse-michels",
+      "to": "bitcoin",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "brandenburg",
+      "to": "mcmoneagle",
+      "reason": "Mars xenon/argon vs Mars RV"
+    },
+    {
+      "from": "mcmoneagle",
+      "to": "hal-puthoff",
+      "reason": "remote viewing stretch"
+    },
+    {
+      "from": "topic-skywatcher",
+      "to": "topic-biefeld-brown",
+      "reason": "7.83 Hz / electrogravitics stretch"
+    },
+    {
+      "from": "joe-rogan",
+      "to": "jesse-michels",
+      "reason": "this episode"
+    },
+    {
+      "from": "hal-puthoff",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "randall-carlson",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "marc-andreessen",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "g-gordon-liddy",
+      "to": "joe-rogan",
+      "reason": "guest also mentioned"
+    },
+    {
+      "from": "paper-1971-ajo",
+      "to": "topic-uap",
+      "reason": "intelligence UFO file"
+    }
+  ]
+}

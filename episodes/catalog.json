@@ -40,6 +40,28 @@
       "graph": "episodes/jre-1670.json",
       "category": "Lifespan",
       "youtube": "https://www.youtube.com/watch?v=2jIJh1EgPFg"
+    },
+    {
+      "id": "jre-2331",
+      "show": "The Joe Rogan Experience",
+      "title": "#2331 — Jesse Michels",
+      "guest": "Jesse Michels",
+      "date": "2025-06-03",
+      "graph": "episodes/jre-2331.json",
+      "category": "UFO",
+      "defaultOn": false,
+      "youtube": "https://www.youtube.com/watch?v=r9Ldl70x5Fg"
+    },
+    {
+      "id": "aa-rogan",
+      "show": "American Alchemy",
+      "title": "Joe Rogan: The Truth About Aliens (He Finally Says It)",
+      "guest": "Joe Rogan",
+      "date": "2025-11-30",
+      "graph": "episodes/aa-rogan.json",
+      "category": "UFO",
+      "defaultOn": false,
+      "youtube": "https://www.youtube.com/watch?v=C_Na1tI5qpw"
     }
   ]
 }

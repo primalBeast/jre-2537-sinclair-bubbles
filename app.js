@@ -81,7 +81,7 @@
       .replace(/\s+/g, " ")
       .trim();
   }
-  async function fetchJson(path) {
+  function fetchJson(path) {
     const res = await fetch(path, { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     return res.json();

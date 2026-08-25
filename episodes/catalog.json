@@ -3,39 +3,43 @@
     {
       "id": "jre-2537",
       "show": "Joe Rogan Experience",
-      "title": "JRE #2537 \u2014 David Sinclair",
+      "title": "JRE #2537 — David Sinclair",
       "guest": "David Sinclair",
       "date": "2026-08-07",
       "graph": "episodes/jre-2537.json",
       "category": "Lifespan",
-      "defaultOn": true
+      "defaultOn": true,
+      "youtube": "https://www.youtube.com/watch?v=hxid7FofhMw"
     },
     {
       "id": "jre-1234",
       "show": "Joe Rogan Experience",
-      "title": "JRE #1234 \u2014 David Sinclair",
+      "title": "JRE #1234 — David Sinclair",
       "guest": "David Sinclair",
       "date": "2019-01-29",
       "graph": "episodes/jre-1234.json",
-      "category": "Lifespan"
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=HOTS0HS7aq4"
     },
     {
       "id": "jre-1349",
       "show": "Joe Rogan Experience",
-      "title": "JRE #1349 \u2014 David Sinclair",
+      "title": "JRE #1349 — David Sinclair",
       "guest": "David Sinclair",
       "date": "2019-09-10",
       "graph": "episodes/jre-1349.json",
-      "category": "Lifespan"
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=ZGLL77wYxe8"
     },
     {
       "id": "jre-1670",
       "show": "Joe Rogan Experience",
-      "title": "JRE #1670 \u2014 David Sinclair",
+      "title": "JRE #1670 — David Sinclair",
       "guest": "David Sinclair",
       "date": "2021-06-18",
       "graph": "episodes/jre-1670.json",
-      "category": "Lifespan"
+      "category": "Lifespan",
+      "youtube": "https://www.youtube.com/watch?v=2jIJh1EgPFg"
     }
   ]
 }

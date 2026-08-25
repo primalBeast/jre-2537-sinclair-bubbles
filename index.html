@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Syne:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./overrides.css">
 </head>
 <body>
   <div id="grain" aria-hidden="true"></div>
@@ -51,6 +52,7 @@
       </div>
       <aside id="sidebar">
         <div class="sheet-handle" aria-hidden="true"></div>
+        <button type="button" id="btn-close" class="close-sheet" hidden>Close</button>
         <div class="empty" id="empty-state">
           <h2>Click a bubble</h2>
           <p>Select a topic, person, paper, or anything else to see its timestamp, link, and the reasons it is connected.</p>

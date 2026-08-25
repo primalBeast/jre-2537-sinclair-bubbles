@@ -600,7 +600,7 @@
         item.addEventListener("click", () => selectNode(c.other.id));
         const who = document.createElement("div");
         who.className = "who";
- mar        who.style.setProperty("--swatch", cm.color);
+        who.style.setProperty("--swatch", cm.color);
         const dot = document.createElement("span");
         dot.className = "dot";
         who.appendChild(dot);

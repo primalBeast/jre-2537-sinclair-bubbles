@@ -324,7 +324,7 @@
     const meta = TYPE_META[n.type] || { color: "#8b93a4", label: n.type };
     const color = meta.color;
     const isHub = isHubNode(n);
-    const fontSize = isHub ? 24 : 16 + Math.min(4, (deg || 0) / 4);
+    const fontSize = isHub ? 20 : 16 + Math.min(4, (deg || 0) / 4);
     const dateLabel = formatCatalogDate(n.episodeDate || "");
     const label = isHub && dateLabel ? (n.label + "\n" + dateLabel) : n.label;
     const node = {
@@ -345,20 +345,20 @@
       borderWidth: isHub ? 2 : 1.25,
       borderWidthSelected: 2.4,
       color: {
-        background: hexToRgba(color, isHub ? 0.42 : 0.16),
+        background: hexToRgba(color, isHub ? 0.38 : 0.22),
         border: color,
-        highlight: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color },
-        hover: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color }
+        highlight: { background: hexToRgba(color, isHub ? 0.38 : 0.22), border: color },
+        hover: { background: hexToRgba(color, isHub ? 0.38 : 0.22), border: color }
       },
       font: {
         face: isHub ? DISPLAY : FONT,
         size: fontSize,
-        color: "#f3eee4",
+        color: "#f4f6fa",
         strokeWidth: 0,
         strokeColor: "transparent",
         multi: isHub && dateLabel ? true : false
       },
-      shadow: { enabled: false },
+      shadow: { enabled: true, color: hexToRgba(color, isHub ? 0.55 : 0.32), size: isHub ? 22 : 12, x: 0, y: 0 },
       chosen: false
     };
     if (typeof n.x === "number") node.x = n.x;
@@ -430,7 +430,7 @@
   }
   function labelFont(on) {
     return on
-      ? { face: FONT, size: 11, color: "#f3eee4", strokeWidth: 4, strokeColor: "#09080c", background: "rgba(10,9,12,0.88)", align: "middle" }
+      ? { face: FONT, size: 11, color: "#f4f6fa", strokeWidth: 4, strokeColor: "#09080c", background: "rgba(10,9,12,0.88)", align: "middle" }
       : { face: FONT, size: 0, color: "transparent", strokeWidth: 0, background: "transparent" };
   }
   function connectedEdgeIds(nodeId) {
@@ -475,13 +475,13 @@
         opacity: dim ? 0.16 : 1,
         borderWidth: !dim && q && hit ? 3 : (isHub ? 2.5 : 1.6),
         color: {
-          background: hexToRgba(color, dim ? 0.08 : (isHub ? 0.42 : 0.16)),
+          background: hexToRgba(color, dim ? 0.10 : (isHub ? 0.38 : 0.22)),
           border: dim ? hexToRgba(color, 0.22) : color,
-          highlight: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color },
-          hover: { background: hexToRgba(color, isHub ? 0.42 : 0.16), border: color }
+          highlight: { background: hexToRgba(color, isHub ? 0.38 : 0.22), border: color },
+          hover: { background: hexToRgba(color, isHub ? 0.38 : 0.22), border: color }
         },
         font: {
-          color: "#f3eee4",
+          color: "#f4f6fa",
           strokeWidth: 0,
           strokeColor: "transparent"
         }
@@ -577,6 +577,9 @@
     if (n.episodeDate) {
       const dateDd = document.createElement("span");
       dateDd.textContent = formatCatalogDate(n.episodeDate);
+      dateDd.style.minHeight = "44px";
+      dateDd.style.display = "flex";
+      dateDd.style.alignItems = "center";
       dl.appendChild(kvRow("Released", dateDd));
     }
     const tsDd = document.createElement("span");

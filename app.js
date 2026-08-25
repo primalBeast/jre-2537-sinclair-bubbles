@@ -860,10 +860,10 @@
         enabled: true,
         solver: "forceAtlas2Based",
         forceAtlas2Based: {
-          gravitationalConstant: selectedIds.length > 1 ? -95 : -50,
+          gravitationalConstant: selectedIds.length > 1 ? -78 : -50,
           centralGravity: selectedIds.length > 1 ? 0.0004 : 0.008,
-          springLength: 110,
-          springConstant: 0.07,
+          springLength: selectedIds.length > 1 ? 88 : 110,
+          springConstant: selectedIds.length > 1 ? 0.12 : 0.07,
           damping: 0.55,
           avoidOverlap: 1
         },
